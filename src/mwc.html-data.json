@@ -1,0 +1,1916 @@
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "mwc-button",
+      "description": "Buttons allow users to take actions, and make choices, with a single tap.\nUse it like this:\n```html\n<mwc-button label='standard'></mwc-button>\n<mwc-button label='standard' icon='code'></mwc-button>\n```\n\nAttributes:\n\n  * `raised` {`boolean`}\n\n  * `unelevated` {`boolean`}\n\n  * `outlined` {`boolean`}\n\n  * `dense` {`boolean`}\n\n  * `disabled` {`boolean`}\n\n  * `trailingicon` {`boolean`}\n\n  * `fullwidth` {`boolean`}\n\n  * `icon` {`string`}\n\n  * `label` {`string`}\n\nProperties:\n\n  * `raised` {`boolean`}\n\n  * `unelevated` {`boolean`}\n\n  * `outlined` {`boolean`}\n\n  * `dense` {`boolean`}\n\n  * `disabled` {`boolean`}\n\n  * `trailingIcon` {`boolean`}\n\n  * `fullwidth` {`boolean`}\n\n  * `icon` {`string`}\n\n  * `label` {`string`}\n\n  * `buttonElement` {`HTMLElement`}\n\n  * `shouldRenderRipple` {`boolean`}\n\n  * `rippleHandlers` {`RippleHandlers`}\n\n  * `ripple` {`Promise<Ripple | null>`}\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`}\n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`}",
+      "references": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/button"
+        },
+        {
+          "name": "API",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/button#api"
+        },
+        {
+          "name": "Demo",
+          "url": "https://material-components.github.io/material-components-web-components/demos/button/"
+        },
+        {
+          "name": "MD Guide",
+          "url": "https://material.io/design/components/buttons.html"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "raised",
+          "description": "`raised` {`boolean`}\n\nCreates a contained button that is elevated above the surface.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "unelevated",
+          "description": "`unelevated` {`boolean`}\n\nCreates a contained button that is flush with the surface.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "outlined",
+          "description": "`outlined` {`boolean`}\n\nCreates an outlined button that is flush with the surface.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "dense",
+          "description": "`dense` {`boolean`}\n\nMakes the button text and container slightly smaller.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "disabled",
+          "description": "`disabled` {`boolean`}\n\nDisabled buttons cannot be interacted with and have no visual interaction effect.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "trailingicon",
+          "description": "`trailingicon` {`boolean`}\n\nWhen `true`, `icon` will be displayed _after_ `label`.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "fullwidth",
+          "description": "`fullwidth` {`boolean`}\n\n\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "icon",
+          "description": "`icon` {`string`}\n\nIcon to display, and `aria-label` value when `label` is not defined.\n\nDefault: ''"
+        },
+        {
+          "name": "label",
+          "description": "`label` {`string`}\n\nLabel to display for the button, and `aria-label`.\n\nDefault: ''"
+        }
+      ]
+    },
+    {
+      "name": "mwc-check-list-item",
+      "description": "Lists are continuous, vertical indexes of text or images.\nUse it like this:\n```html\n<mwc-list multi>\n  <mwc-check-list-item selected>Item 0</mwc-check-list-item>\n  <mwc-check-list-item selected>Item 1</mwc-check-list-item>\n  <li divider role='separator' padded></li>\n  <mwc-check-list-item left selected>Item 2 (left)</mwc-check-list-item>\n  <mwc-check-list-item left>Item 3 (left)</mwc-check-list-item>\n</mwc-list>\n```\n\nEvents:\n\n  * `request-selected` - {RequestSelectedDetail}\n\n  * `list-item-rendered`\n\nAttributes:\n\n  * `left` {`boolean`}\n\n  * `value` {`string`}\n\n  * `group` {`string | null`}\n\n  * `tabindex` {`number`}\n\n  * `disabled` {`boolean`}\n\n  * `twoline` {`boolean`}\n\n  * `activated` {`boolean`}\n\n  * `graphic` {`GraphicType`}\n\n  * `hasMeta` {`boolean`}\n\n  * `noninteractive` {`boolean`}\n\n  * `selected` {`boolean`}\n\nProperties:\n\n  * `checkboxElement` {`Checkbox`}\n\n  * `left` {`boolean`}\n\n  * `slotElement` {`HTMLSlotElement | null`}\n\n  * `value` {`string`}\n\n  * `group` {`string | null`}\n\n  * `tabindex` {`number`}\n\n  * `disabled` {`boolean`}\n\n  * `twoline` {`boolean`}\n\n  * `activated` {`boolean`}\n\n  * `graphic` {`GraphicType`}\n\n  * `hasMeta` {`boolean`}\n\n  * `noninteractive` {`boolean`}\n\n  * `selected` {`boolean`}\n\n  * `shouldRenderRipple` {`boolean`}\n\n  * `boundOnClick`\n\n  * `_firstChanged` {`boolean`}\n\n  * `_skipPropRequest` {`boolean`}\n\n  * `rippleHandlers` {`RippleHandlers`}\n\n  * `listeners` {`{ target: Element; eventNames: string[]; cb: EventListenerOrEventListenerObject; }[]`}\n\n  * `text` {`string`}\n\n  * `ripple` {`Promise<Ripple | null>`}\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`}\n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`}",
+      "references": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/list"
+        },
+        {
+          "name": "API",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/list#api"
+        },
+        {
+          "name": "Demo",
+          "url": "https://material-components.github.io/material-components-web-components/demos/list/"
+        },
+        {
+          "name": "MD Guide",
+          "url": "https://material.io/design/components/lists.html"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "left",
+          "description": "`left` {`boolean`}\n\nDisplays the checkbox on the left. Overrides `graphic`.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "value",
+          "description": "`value` {`string`}\n\nValue associated with this list item (used by `mwc-select`).\n\nDefault: ''"
+        },
+        {
+          "name": "group",
+          "description": "`group` {`string | null`}\n\nUsed to group items together (used by `mwc-menu` for menu selection groups and `mwc-radio-list-element`).\n\nDefault: null",
+          "values": []
+        },
+        {
+          "name": "tabindex",
+          "description": "`tabindex` {`number`}\n\nReflects `tabindex` and sets internal tab indices.\n\nDefault: -1"
+        },
+        {
+          "name": "disabled",
+          "description": "`disabled` {`boolean`}\n\nReflects `disabled` and sets internal `disabled` attributes.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "twoline",
+          "description": "`twoline` {`boolean`}\n\nActivates the two-line variant and enables the `secondary` slot.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "activated",
+          "description": "`activated` {`boolean`}\n\nActivates focus-persistent ripple.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "graphic",
+          "description": "`graphic` {`GraphicType`}\n\nDetermines which graphic layout to show and enables the `graphic` slot when value is not `control` or `null`.\n\nDefault: control"
+        },
+        {
+          "name": "hasMeta",
+          "description": "`hasMeta` {`boolean`}\n\nActivates the meta layout tile and enables the `meta` slot.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "noninteractive",
+          "description": "`noninteractive` {`boolean`}\n\nDisables focus and pointer events for the list item.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "selected",
+          "description": "`selected` {`boolean`}\n\nDenotes that the list item is selected.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "onrequest-selected",
+          "description": "`request-selected` - {RequestSelectedDetail}"
+        },
+        {
+          "name": "onlist-item-rendered",
+          "description": "`list-item-rendered`"
+        }
+      ]
+    },
+    {
+      "name": "mwc-checkbox",
+      "description": "Checkboxes allow the user to select one or more items from a set. Checkboxes can be used to turn an option on or off.\nUse it like this:\n```html\n<mwc-checkbox indeterminate></mwc-checkbox>\n```\n\nAttributes:\n\n  * `checked` {`boolean`}\n\n  * `indeterminate` {`boolean`}\n\n  * `disabled` {`boolean`}\n\n  * `value` {`string`}\n\nProperties:\n\n  * `checked` {`boolean`}\n\n  * `indeterminate` {`boolean`}\n\n  * `disabled` {`boolean`}\n\n  * `value` {`string`}\n\n  * `animationClass` {`string`}\n\n  * `shouldRenderRipple` {`boolean`}\n\n  * `rippleElement` {`Ripple | null`}\n\n  * `rippleHandlers` {`RippleHandlers`}\n\n  * `isRippleActive` {`boolean`}\n\n  * `formElement` {`HTMLInputElement`} - Form-capable element in the component ShadowRoot.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`undefined`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`undefined`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`Promise<Ripple | null>`} - Implement ripple getter for Ripple integration with mwc-formfield\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`}\n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`}",
+      "references": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/checkbox"
+        },
+        {
+          "name": "API",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/checkbox#api"
+        },
+        {
+          "name": "Demo",
+          "url": "https://material-components.github.io/material-components-web-components/demos/checkbox/"
+        },
+        {
+          "name": "MD Guide",
+          "url": "https://material.io/components/selection-controls/#checkboxes"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "checked",
+          "description": "`checked` {`boolean`}\n\nWhether the checkbox is checked.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "indeterminate",
+          "description": "`indeterminate` {`boolean`}\n\nWhen a checkbox is the parent of a set of child checkboxes, the *indeterminate* state is used on the parent to indicate that some but not all of its children are checked.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "disabled",
+          "description": "`disabled` {`boolean`}\n\nWhen `true`, the checkbox cannot be interacted with, and renders in muted colors.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "value",
+          "description": "`value` {`string`}\n\nThe value that will be included if the checkbox is submitted in a form.\n\nDefault: ''"
+        }
+      ]
+    },
+    {
+      "name": "mwc-dialog",
+      "description": "Dialogs inform users about a task and can contain critical information, require decisions, or involve multiple tasks.\nUse it like this:\n```html\n<mwc-dialog open>\n  <div>Discard draft?</div>\n  <mwc-button slot='primaryAction' dialogAction='discard'>\n    Discard\n  </mwc-button>\n  <mwc-button slot='secondaryAction' dialogAction='cancel'>\n    Cancel\n  </mwc-button>\n</mwc-dialog>\n```\n\nAttributes:\n\n  * `hideActions` {`boolean`}\n\n  * `stacked` {`boolean`}\n\n  * `heading` {`string`}\n\n  * `scrimClickAction` {`string`}\n\n  * `escapeKeyAction` {`string`}\n\n  * `open` {`boolean`}\n\n  * `defaultAction` {`string`}\n\n  * `actionAttribute` {`string`}\n\n  * `initialFocusAttribute` {`string`}\n\nProperties:\n\n  * `primarySlot` {`HTMLElement`}\n\n  * `secondarySlot` {`HTMLElement`}\n\n  * `contentSlot` {`HTMLElement`}\n\n  * `contentElement` {`HTMLDivElement`}\n\n  * `conatinerElement` {`HTMLDivElement`}\n\n  * `hideActions` {`boolean`}\n\n  * `stacked` {`boolean`}\n\n  * `heading` {`string`}\n\n  * `scrimClickAction` {`string`}\n\n  * `escapeKeyAction` {`string`}\n\n  * `open` {`boolean`}\n\n  * `defaultAction` {`string`}\n\n  * `actionAttribute` {`string`}\n\n  * `initialFocusAttribute` {`string`}\n\n  * `closingDueToDisconnect` {`boolean | undefined`}\n\n  * `primaryButton` {`HTMLElement | null`}\n\n  * `currentAction` {`string | undefined`}\n\n  * `boundLayout` {`(() => void) | null`}\n\n  * `boundHandleClick` {`((ev: MouseEvent) => void) | null`}\n\n  * `boundHandleKeydown` {`((ev: KeyboardEvent) => void) | null`}\n\n  * `boundHandleDocumentKeydown` {`((ev: KeyboardEvent) => void) | null`}\n\n  * `mdcRoot` {`HTMLDivElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCDialogFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCDialogFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`unknown`}\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`}\n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`}",
+      "references": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/dialog"
+        },
+        {
+          "name": "API",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/dialog#api"
+        },
+        {
+          "name": "Demo",
+          "url": "https://material-components.github.io/material-components-web-components/demos/dialog/"
+        },
+        {
+          "name": "MD Guide",
+          "url": "https://material.io/design/components/dialogs.html"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "hideActions",
+          "description": "`hideActions` {`boolean`}\n\nHides the actions footer of the dialog. Needed to remove excess padding when no actions are slotted in.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "stacked",
+          "description": "`stacked` {`boolean`}\n\nWhether to stack the action buttons.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "heading",
+          "description": "`heading` {`string`}\n\nHeading text of the dialog.\n\nDefault: ''"
+        },
+        {
+          "name": "scrimClickAction",
+          "description": "`scrimClickAction` {`string`}\n\nAction to be emitted with the `closing` and `closed` events when the dialog closes because the scrim was clicked\n\nDefault: close"
+        },
+        {
+          "name": "escapeKeyAction",
+          "description": "`escapeKeyAction` {`string`}\n\nAction to be emitted with the `closing` and `closed` events when the dialog closes because the excape key was pressed\n\nDefault: close"
+        },
+        {
+          "name": "open",
+          "description": "`open` {`boolean`}\n\nWhether the dialog should open.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "defaultAction",
+          "description": "`defaultAction` {`string`}\n\nAction to be emitted with the `closing` and `closed` events when `<mwc-dialog>.open` is toggled\n\nDefault: close"
+        },
+        {
+          "name": "actionAttribute",
+          "description": "`actionAttribute` {`string`}\n\nAttribute to read in light dom of dialog for closing action value\n\nDefault: dialogAction"
+        },
+        {
+          "name": "initialFocusAttribute",
+          "description": "`initialFocusAttribute` {`string`}\n\nAttribute to search for in light dom for initial focus on dialog open.\n\nDefault: dialogInitialFocus"
+        }
+      ]
+    },
+    {
+      "name": "mwc-drawer",
+      "description": "The Navigation Drawer is used to organize access to destinations and other functionality on an app.\nUse it like this:\n```html\n<mwc-drawer>\n  <div>\n    <p>Drawer Content!</p>\n  </div>\n  <div slot='appContent'>\n    <mwc-top-app-bar>\n      <div slot='title'>Title</div>\n    </mwc-top-app-bar>\n    <div>\n      <p>Main Content!</p>\n    </div>\n  </div>\n</mwc-drawer>\n```\n\nAttributes:\n\n  * `open` {`boolean`}\n\n  * `hasHeader` {`boolean`}\n\n  * `type` {`string`}\n\nProperties:\n\n  * `appContent` {`InertableHTMLElement`}\n\n  * `_previousFocus` {`HTMLElement | null`}\n\n  * `open` {`boolean`}\n\n  * `hasHeader` {`boolean`}\n\n  * `type` {`string`}\n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCDismissibleDrawerFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCDismissibleDrawerFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`unknown`}\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`}\n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`}",
+      "references": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/drawer"
+        },
+        {
+          "name": "API",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/drawer#api"
+        },
+        {
+          "name": "Demo",
+          "url": "https://material-components.github.io/material-components-web-components/demos/drawer/"
+        },
+        {
+          "name": "MD Guide",
+          "url": "https://material.io/components/navigation-drawer/"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "open",
+          "description": "`open` {`boolean`}\n\nWhether the dialog is open.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "hasHeader",
+          "description": "`hasHeader` {`boolean`}\n\n When `true`, displays the `title`, `subtitle`, and `header` slots.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "type",
+          "description": "`type` {`string`}\n\nWhen set to `'dismissible'`, overlays the drawer on the content. When set to `'modal'`, also adds a scrim when the drawer is open.\n\nDefault: ''"
+        }
+      ]
+    },
+    {
+      "name": "mwc-fab",
+      "description": "A floating action button (FAB) represents the primary action of a screen.\nUse it like this:\n```html\n<mwc-fab icon='edit'></mwc-fab>\n```\n\nAttributes:\n\n  * `mini` {`boolean`}\n\n  * `exited` {`boolean`}\n\n  * `disabled` {`boolean`}\n\n  * `extended` {`boolean`}\n\n  * `showIconAtEnd` {`boolean`}\n\n  * `icon` {`string`}\n\n  * `label` {`string`}\n\nProperties:\n\n  * `mini` {`boolean`}\n\n  * `exited` {`boolean`}\n\n  * `disabled` {`boolean`}\n\n  * `extended` {`boolean`}\n\n  * `showIconAtEnd` {`boolean`}\n\n  * `icon` {`string`}\n\n  * `label` {`string`}\n\n  * `ripple` {`unknown`}\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`}\n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`}",
+      "references": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/fab"
+        },
+        {
+          "name": "API",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/fab#api"
+        },
+        {
+          "name": "Demo",
+          "url": "https://material-components.github.io/material-components-web-components/demos/fab/"
+        },
+        {
+          "name": "MD Guide",
+          "url": "https://material.io/design/components/buttons-floating-action-button.html"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "mini",
+          "description": "`mini` {`boolean`}\n\nModifies the FAB to be a smaller size, for use on smaller screens. Defaults to `false`.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "exited",
+          "description": "`exited` {`boolean`}\n\n\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "disabled",
+          "description": "`disabled` {`boolean`}\n\n\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "extended",
+          "description": "`extended` {`boolean`}\n\nEnable the *extended* layout which includes a text label. Defaults to `false`.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "showIconAtEnd",
+          "description": "`showIconAtEnd` {`boolean`}\n\nWhen in the *extended* layout, position the icon after the label, instead of before. Defaults to `false`.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "icon",
+          "description": "`icon` {`string`}\n\nThe icon to display.\n\nDefault: ''"
+        },
+        {
+          "name": "label",
+          "description": "`label` {`string`}\n\nThe label to display when using the `extended` layout, and the `aria-label` attribute in all layouts.\n\nDefault: ''"
+        }
+      ]
+    },
+    {
+      "name": "mwc-formfield",
+      "description": "A form field is a text caption for MWC input elements including <mwc-checkbox>, <mwc-radio>, and <mwc-switch>.\nIt is equivalent to the native <label> element in that it forwards user interaction events to the input element. For example, tapping on the label causes the associated input element to toggle and focus.\nUse it like this:\n```html\n<mwc-formfield label='Tomato'>\n  <mwc-checkbox checked></mwc-checkbox>\n</mwc-formfield>\n```\n\nAttributes:\n\n  * `alignEnd` {`boolean`}\n\n  * `spaceBetween` {`boolean`}\n\n  * `nowrap` {`boolean`}\n\n  * `label` {`string`}\n\nProperties:\n\n  * `alignEnd` {`boolean`}\n\n  * `spaceBetween` {`boolean`}\n\n  * `nowrap` {`boolean`}\n\n  * `label` {`string`}\n\n  * `slotEl` {`HTMLElement`}\n\n  * `labelEl` {`HTMLLabelElement`}\n\n  * `input` {`HTMLElement | null`}\n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCFormFieldFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCFormFieldFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`unknown`}\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`}\n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`}",
+      "references": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/formfield"
+        },
+        {
+          "name": "API",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/formfield#api"
+        },
+        {
+          "name": "Demo",
+          "url": "https://material-components.github.io/material-components-web-components/demos/formfield/"
+        },
+        {
+          "name": "MD Guide",
+          "url": "https://material.io/components/selection-controls/"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "alignEnd",
+          "description": "`alignEnd` {`boolean`}\n\nAlign the component at the end of the label.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "spaceBetween",
+          "description": "`spaceBetween` {`boolean`}\n\nAdd space between the component and the label as the formfield grows.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "nowrap",
+          "description": "`nowrap` {`boolean`}\n\nPrevents the label from wrapping and overflow text is ellipsed.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "label",
+          "description": "`label` {`string`}\n\nThe text to display for the label and sets a11y label on input. (visually overriden by slotted label)\n\nDefault: ''"
+        }
+      ]
+    },
+    {
+      "name": "mwc-icon-button-toggle",
+      "description": "Toggle buttons can be used to group related options. To emphasize groups of related toggle buttons, a group should share a common container.\nIcons can be used as toggle buttons when they allow selection, or deselection, of a single choice, such as marking an item as a favorite.\nFor the non-toggling version of this component, see <mwc-icon-button>\nUse it like this:\n```html\n<mwc-icon-button-toggle\n  onIcon='sentiment_very_satisfied'\n  offIcon='sentiment_very_dissatisfied'\n></mwc-icon-button-toggle>\n```\n\nEvents:\n\n  * `MDCIconButtonToggle:change`\n\nAttributes:\n\n  * `label` {`string`}\n\n  * `disabled` {`boolean`}\n\n  * `onIcon` {`string`}\n\n  * `offIcon` {`string`}\n\n  * `on` {`boolean`}\n\nProperties:\n\n  * `label` {`string`}\n\n  * `disabled` {`boolean`}\n\n  * `onIcon` {`string`}\n\n  * `offIcon` {`string`}\n\n  * `on` {`boolean`}\n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCIconButtonToggleFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCIconButtonToggleFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`unknown`}\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`}\n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`}",
+      "references": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/icon-button-toggle"
+        },
+        {
+          "name": "API",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/icon-button-toggle#api"
+        },
+        {
+          "name": "Demo",
+          "url": "https://material-components.github.io/material-components-web-components/demos/icon-button-toggle/"
+        },
+        {
+          "name": "MD Guide",
+          "url": "https://material.io/design/components/buttons.html#toggle-button"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "label",
+          "description": "`label` {`string`}\n\nAccessible label for the button, sets `aria-label`.\n\nDefault: ''"
+        },
+        {
+          "name": "disabled",
+          "description": "`disabled` {`boolean`}\n\nDisabled buttons cannot be interacted with and have no visual interaction effect.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "onIcon",
+          "description": "`onIcon` {`string`}\n\nIcon to display when `on` is `true`.\n\nDefault: ''"
+        },
+        {
+          "name": "offIcon",
+          "description": "`offIcon` {`string`}\n\nIcon to display when `on` is `false`.\n\nDefault: ''"
+        },
+        {
+          "name": "on",
+          "description": "`on` {`boolean`}\n\nWhether the toggle is activated.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "onMDCIconButtonToggle:change",
+          "description": "`MDCIconButtonToggle:change`"
+        }
+      ]
+    },
+    {
+      "name": "mwc-icon-button",
+      "description": "Icon buttons allow users to take actions, and make choices, with a single tap.\nFor the toggling version of this component, see <mwc-icon-button-toggle>\nUse it like this:\n```html\n<mwc-icon-button icon='code'></mwc-icon-button>\n```\n\nAttributes:\n\n  * `disabled` {`boolean`}\n\n  * `icon` {`string`}\n\n  * `label` {`string`}\n\nProperties:\n\n  * `disabled` {`boolean`}\n\n  * `icon` {`string`}\n\n  * `label` {`string`}\n\n  * `ripple` {`unknown`}\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`}\n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`}",
+      "references": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/icon-button"
+        },
+        {
+          "name": "API",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/icon-button#api"
+        },
+        {
+          "name": "Demo",
+          "url": "https://material-components.github.io/material-components-web-components/demos/icon-button/"
+        },
+        {
+          "name": "MD Guide",
+          "url": "https://material.io/design/components/buttons.html"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "`disabled` {`boolean`}\n\nDisabled buttons cannot be interacted with and have no visual interaction effect.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "icon",
+          "description": "`icon` {`string`}\n\nIcon to display, and `aria-label` value when `label` is not defined.\n\nDefault: ''"
+        },
+        {
+          "name": "label",
+          "description": "`label` {`string`}\n\nAccessible label for the button, sets `aria-label`.\n\nDefault: ''"
+        }
+      ]
+    },
+    {
+      "name": "mwc-icon",
+      "description": "Icon displays an icon with a chosen name from the Material Icons font, or from any font that supports ligatures.\nUse it like this:\n```html\n<mwc-icon>shopping_cart</mwc-icon>\n```\n\nProperties:\n\n  * `ripple` {`unknown`}\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`}\n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`}",
+      "references": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/icon"
+        },
+        {
+          "name": "API",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/icon#api"
+        },
+        {
+          "name": "Demo",
+          "url": "https://material-components.github.io/material-components-web-components/demos/icon/"
+        },
+        {
+          "name": "MD Guide",
+          "url": "https://material.io/design/iconography/system-icons.html"
+        }
+      ],
+      "attributes": []
+    },
+    {
+      "name": "mwc-linear-progress",
+      "description": "Progress indicators express an unspecified wait time or display the length of a process.\nUse it like this:\n```html\n<mwc-linear-progress indeterminate></mwc-linear-progress>\n```\n\nAttributes:\n\n  * `indeterminate` {`boolean`}\n\n  * `progress` {`number`}\n\n  * `buffer` {`number`}\n\n  * `reverse` {`boolean`}\n\n  * `closed` {`boolean`}\n\n  * `ariaLabel` {`string`}\n\nProperties:\n\n  * `primaryBar` {`HTMLElement`}\n\n  * `bufferElement` {`HTMLElement`}\n\n  * `indeterminate` {`boolean`}\n\n  * `progress` {`number`}\n\n  * `buffer` {`number`}\n\n  * `reverse` {`boolean`}\n\n  * `closed` {`boolean`}\n\n  * `ariaLabel` {`string`}\n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCLinearProgressFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCLinearProgressFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`unknown`}\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`}\n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`}",
+      "references": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/linear-progress"
+        },
+        {
+          "name": "API",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/linear-progress#api"
+        },
+        {
+          "name": "Demo",
+          "url": "https://material-components.github.io/material-components-web-components/demos/linear-progress/"
+        },
+        {
+          "name": "MD Guide",
+          "url": "https://material.io/components/progress-indicators/#circular-progress-indicators"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "indeterminate",
+          "description": "`indeterminate` {`boolean`}\n\nSets the linear-progress into its indeterminate state.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "progress",
+          "description": "`progress` {`number`}\n\nSets the primary progress bar's value. Value should be between [0, 1].\n\nDefault: 0"
+        },
+        {
+          "name": "buffer",
+          "description": "`buffer` {`number`}\n\nSets the buffer progress bar's value. Value should be between [0, 1]. Setting this value to be less than 1 will reveal moving, buffering dots.\n\nDefault: 1"
+        },
+        {
+          "name": "reverse",
+          "description": "`reverse` {`boolean`}\n\nReverses the direction of the linear progress indicator.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "closed",
+          "description": "`closed` {`boolean`}\n\nSets the progress indicator to the closed state. Sets content opactiy to 0. Typically should be set to true when loading has finished.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "ariaLabel",
+          "description": "`ariaLabel` {`string`}\n\n\n\nDefault: ''"
+        }
+      ]
+    },
+    {
+      "name": "mwc-list-item",
+      "description": "Lists are continuous, vertical indexes of text or images.\nUse it like this:\n```html\n<mwc-list>\n  <mwc-list-item>Item 0</mwc-list-item>\n  <mwc-list-item>Item 1</mwc-list-item>\n  <mwc-list-item>Item 2</mwc-list-item>\n  <mwc-list-item>Item 3</mwc-list-item>\n</mwc-list>\n```\n\nEvents:\n\n  * `request-selected` - {RequestSelectedDetail}\n\n  * `list-item-rendered`\n\nAttributes:\n\n  * `value` {`string`}\n\n  * `group` {`string | null`}\n\n  * `tabindex` {`number`}\n\n  * `disabled` {`boolean`}\n\n  * `twoline` {`boolean`}\n\n  * `activated` {`boolean`}\n\n  * `graphic` {`GraphicType`}\n\n  * `hasMeta` {`boolean`}\n\n  * `noninteractive` {`boolean`}\n\n  * `selected` {`boolean`}\n\nProperties:\n\n  * `slotElement` {`HTMLSlotElement | null`}\n\n  * `value` {`string`}\n\n  * `group` {`string | null`}\n\n  * `tabindex` {`number`}\n\n  * `disabled` {`boolean`}\n\n  * `twoline` {`boolean`}\n\n  * `activated` {`boolean`}\n\n  * `graphic` {`GraphicType`}\n\n  * `hasMeta` {`boolean`}\n\n  * `noninteractive` {`boolean`}\n\n  * `selected` {`boolean`}\n\n  * `shouldRenderRipple` {`boolean`}\n\n  * `boundOnClick`\n\n  * `_firstChanged` {`boolean`}\n\n  * `_skipPropRequest` {`boolean`}\n\n  * `rippleHandlers` {`RippleHandlers`}\n\n  * `listeners` {`{ target: Element; eventNames: string[]; cb: EventListenerOrEventListenerObject; }[]`}\n\n  * `text` {`string`}\n\n  * `ripple` {`Promise<Ripple | null>`}\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`}\n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`}",
+      "references": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/list"
+        },
+        {
+          "name": "API",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/list#api"
+        },
+        {
+          "name": "Demo",
+          "url": "https://material-components.github.io/material-components-web-components/demos/list/"
+        },
+        {
+          "name": "MD Guide",
+          "url": "https://material.io/design/components/lists.html"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "value",
+          "description": "`value` {`string`}\n\nValue associated with this list item (used by `mwc-select`).\n\nDefault: ''"
+        },
+        {
+          "name": "group",
+          "description": "`group` {`string | null`}\n\nUsed to group items together (used by `mwc-menu` for menu selection groups and `mwc-radio-list-element`).\n\nDefault: null",
+          "values": []
+        },
+        {
+          "name": "tabindex",
+          "description": "`tabindex` {`number`}\n\nReflects `tabindex` and sets internal tab indices.\n\nDefault: -1"
+        },
+        {
+          "name": "disabled",
+          "description": "`disabled` {`boolean`}\n\nReflects `disabled` and sets internal `disabled` attributes.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "twoline",
+          "description": "`twoline` {`boolean`}\n\nActivates the two-line variant and enables the `secondary` slot.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "activated",
+          "description": "`activated` {`boolean`}\n\nActivates focus-persistent ripple.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "graphic",
+          "description": "`graphic` {`GraphicType`}\n\nDetermines which graphic layout to show and enables the `graphic` slot.\n\nDefault: null"
+        },
+        {
+          "name": "hasMeta",
+          "description": "`hasMeta` {`boolean`}\n\nActivates the meta layout tile and enables the `meta` slot.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "noninteractive",
+          "description": "`noninteractive` {`boolean`}\n\nDisables focus and pointer events for the list item.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "selected",
+          "description": "`selected` {`boolean`}\n\nDenotes that the list item is selected.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "onrequest-selected",
+          "description": "`request-selected` - {RequestSelectedDetail}"
+        },
+        {
+          "name": "onlist-item-rendered",
+          "description": "`list-item-rendered`"
+        }
+      ]
+    },
+    {
+      "name": "mwc-list",
+      "description": "Lists are continuous, vertical indexes of text or images.\nUse it like this:\n```html\n<mwc-list>\n  <mwc-list-item>Item 0</mwc-list-item>\n  <mwc-list-item>Item 1</mwc-list-item>\n  <mwc-list-item>Item 2</mwc-list-item>\n  <mwc-list-item>Item 3</mwc-list-item>\n</mwc-list>\n```\n\nEvents:\n\n  * `selected` - {SelectedDetail}\n\n  * `action` - {ActionDetail}\n\nAttributes:\n\n  * `activatable` {`boolean`}\n\n  * `multi` {`boolean`}\n\n  * `wrapFocus` {`boolean`}\n\n  * `itemRoles` {`string | null`}\n\n  * `innerRole` {`string | null`}\n\n  * `innerAriaLabel` {`string | null`}\n\n  * `rootTabbable` {`boolean`}\n\n  * `noninteractive` {`boolean`}\n\nProperties:\n\n  * `mdcAdapter` {`MDCListAdapter | null`}\n\n  * `slotElement` {`HTMLSlotElement | null`}\n\n  * `activatable` {`boolean`}\n\n  * `multi` {`boolean`}\n\n  * `wrapFocus` {`boolean`}\n\n  * `itemRoles` {`string | null`}\n\n  * `innerRole` {`string | null`}\n\n  * `innerAriaLabel` {`string | null`}\n\n  * `rootTabbable` {`boolean`}\n\n  * `previousTabindex` {`Element | null`}\n\n  * `noninteractive` {`boolean`}\n\n  * `assignedElements` {`Element[]`}\n\n  * `items_` {`ListItemBase[]`}\n\n  * `items` {`ListItemBase[]`}\n\n  * `selected` {`ListItemBase | ListItemBase[] | null`}\n\n  * `index` {`MWCListIndex`}\n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCListFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCListFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`unknown`}\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`}\n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`}",
+      "references": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/list"
+        },
+        {
+          "name": "API",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/list#api"
+        },
+        {
+          "name": "Demo",
+          "url": "https://material-components.github.io/material-components-web-components/demos/list/"
+        },
+        {
+          "name": "MD Guide",
+          "url": "https://material.io/design/components/lists.html"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "activatable",
+          "description": "`activatable` {`boolean`}\n\nSets `activated` attribute on selected items which provides a focus-persistent highlight.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "multi",
+          "description": "`multi` {`boolean`}\n\nWhen `true`, enables selection of multiple items. This will result in `index` being of type `Set<number>` and selected returning `ListItemBase[]`.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "wrapFocus",
+          "description": "`wrapFocus` {`boolean`}\n\nWhen `true`, pressing `up` on the keyboard when focused on the first item will focus the last item and `down` when focused on the last item will focus the first item.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "itemRoles",
+          "description": "`itemRoles` {`string | null`}\n\nDetermines what `role` attribute to set on all list items.\n\nDefault: null",
+          "values": []
+        },
+        {
+          "name": "innerRole",
+          "description": "`innerRole` {`string | null`}\n\nRole of the internal `<ul>` element.\n\nDefault: null",
+          "values": []
+        },
+        {
+          "name": "innerAriaLabel",
+          "description": "`innerAriaLabel` {`string | null`}\n\n\n\nDefault: null",
+          "values": []
+        },
+        {
+          "name": "rootTabbable",
+          "description": "`rootTabbable` {`boolean`}\n\nWhen `true`, sets `tabindex='0'` on the internal list. Otherwise sets `tabindex='-1'`.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "noninteractive",
+          "description": "`noninteractive` {`boolean`}\n\nWhen `true`, disables focus and pointer events (thus ripples) on the list. Used for display-only lists.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "onselected",
+          "description": "`selected` - {SelectedDetail}"
+        },
+        {
+          "name": "onaction",
+          "description": "`action` - {ActionDetail}"
+        }
+      ]
+    },
+    {
+      "name": "mwc-menu-surface",
+      "description": "Menus display a list of choices on temporary surfaces.\nUse it like this:\n```html\n<div style='position: relative;'>\n  <mwc-button id='button' raised label='Open Menu'></mwc-button>\n  <mwc-menu id='menu'>\n    <mwc-list-item>Item 0</mwc-list-item>\n    <mwc-list-item>Item 1</mwc-list-item>\n    <mwc-list-item>Item 2</mwc-list-item>\n    <mwc-list-item>Item 3</mwc-list-item>\n  </mwc-menu>\n</div>\n```\n\nEvents:\n\n  * `opened`\n\n  * `closed`\n\nAttributes:\n\n  * `absolute` {`boolean`}\n\n  * `fullwidth` {`boolean`}\n\n  * `fixed` {`boolean`}\n\n  * `x` {`number | null`}\n\n  * `y` {`number | null`}\n\n  * `quick` {`boolean`}\n\n  * `open` {`boolean`}\n\n  * `corner` {`\"TOP_LEFT\" | \"TOP_RIGHT\" | \"BOTTOM_LEFT\" | \"BOTTOM_RIGHT\" | \"TOP_START\" | \"TOP_END\" | \"BOTTOM_START\" | \"BOTTOM_END\"`}\n\nProperties:\n\n  * `slotElement` {`HTMLSlotElement | null`}\n\n  * `absolute` {`boolean`}\n\n  * `fullwidth` {`boolean`}\n\n  * `fixed` {`boolean`}\n\n  * `x` {`number | null`}\n\n  * `y` {`number | null`}\n\n  * `quick` {`boolean`}\n\n  * `open` {`boolean`}\n\n  * `corner` {`\"TOP_LEFT\" | \"TOP_RIGHT\" | \"BOTTOM_LEFT\" | \"BOTTOM_RIGHT\" | \"TOP_START\" | \"TOP_END\" | \"BOTTOM_START\" | \"BOTTOM_END\"`}\n\n  * `anchor` {`HTMLElement | null`}\n\n  * `previouslyFocused` {`HTMLElement | Element | null`}\n\n  * `previousAnchor` {`HTMLElement | null`}\n\n  * `onBodyClickBound` {`(evt: MouseEvent) => void`}\n\n  * `mdcRoot` {`HTMLDivElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCMenuSurfaceFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCMenuSurfaceFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`unknown`}\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`}\n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`}",
+      "references": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/menu"
+        },
+        {
+          "name": "API",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/menu#api"
+        },
+        {
+          "name": "Demo",
+          "url": "https://material-components.github.io/material-components-web-components/demos/menu/"
+        },
+        {
+          "name": "MD Guide",
+          "url": "https://material.io/design/components/menus.html"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "absolute",
+          "description": "`absolute` {`boolean`}\n\nMakes the menu's position `absolute` which will be relative to whichever ancestor has `position:relative`. Setting `x` and `y` will modify the menu's `left` and `top`. Setting `anchor` will attempt to position the menu to the `anchor`.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "fullwidth",
+          "description": "`fullwidth` {`boolean`}\n\nSets surface width to 100%.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "fixed",
+          "description": "`fixed` {`boolean`}\n\nMakes the menu's position `fixed` which will be relative to the window. Setting `x` and `y` will modify the menu's `left` and `top`. Setting `anchor` will attempt to position the menu to the `anchor`'s immediate position before opening.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "x",
+          "description": "`x` {`number | null`}\n\nSets horizontal position when `absolute` or `fixed`. When given an `anchor`, sets horizontal position relative to `anchor` at given `corner`. Requires `y` not to be null.\n\nDefault: null",
+          "values": []
+        },
+        {
+          "name": "y",
+          "description": "`y` {`number | null`}\n\nSets vertical position when `absolute` or `fixed`. When given an `anchor`, sets vertical position relative to `anchor` at given `corner`. Requires `x` not to be null.\n\nDefault: null",
+          "values": []
+        },
+        {
+          "name": "quick",
+          "description": "`quick` {`boolean`}\n\nWhether to skip the opening animation.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "open",
+          "description": "`open` {`boolean`}\n\nWhether the menu should open and display.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "corner",
+          "description": "`corner` {`\"TOP_LEFT\" | \"TOP_RIGHT\" | \"BOTTOM_LEFT\" | \"BOTTOM_RIGHT\" | \"TOP_START\" | \"TOP_END\" | \"BOTTOM_START\" | \"BOTTOM_END\"`}\n\nCorner of the anchor from which the menu should position itself.\n\nDefault: TOP_START",
+          "values": [
+            {
+              "name": "TOP_LEFT"
+            },
+            {
+              "name": "TOP_RIGHT"
+            },
+            {
+              "name": "BOTTOM_LEFT"
+            },
+            {
+              "name": "BOTTOM_RIGHT"
+            },
+            {
+              "name": "TOP_START"
+            },
+            {
+              "name": "TOP_END"
+            },
+            {
+              "name": "BOTTOM_START"
+            },
+            {
+              "name": "BOTTOM_END"
+            }
+          ]
+        },
+        {
+          "name": "onopened",
+          "description": "`opened`"
+        },
+        {
+          "name": "onclosed",
+          "description": "`closed`"
+        }
+      ]
+    },
+    {
+      "name": "mwc-menu",
+      "description": "Menus display a list of choices on temporary surfaces.\nUse it like this:\n```html\n<div style='position: relative;'>\n  <mwc-button id='button' raised label='Open Menu'></mwc-button>\n  <mwc-menu id='menu'>\n    <mwc-list-item>Item 0</mwc-list-item>\n    <mwc-list-item>Item 1</mwc-list-item>\n    <mwc-list-item>Item 2</mwc-list-item>\n    <mwc-list-item>Item 3</mwc-list-item>\n  </mwc-menu>\n</div>\n```\n\nEvents:\n\n  * `selected` - {SelectedDetail}\n\n  * `action` - {ActionDetail}\n\n  * `opened`\n\n  * `closed`\n\nAttributes:\n\n  * `anchor` {`HTMLElement | null`}\n\n  * `open` {`boolean`}\n\n  * `quick` {`boolean`}\n\n  * `wrapFocus` {`boolean`}\n\n  * `innerRole` {`\"menu\" | \"listbox\"`}\n\n  * `corner` {`\"TOP_LEFT\" | \"TOP_RIGHT\" | \"BOTTOM_LEFT\" | \"BOTTOM_RIGHT\" | \"TOP_START\" | \"TOP_END\" | \"BOTTOM_START\" | \"BOTTOM_END\"`}\n\n  * `x` {`number | null`}\n\n  * `y` {`number | null`}\n\n  * `absolute` {`boolean`}\n\n  * `multi` {`boolean`}\n\n  * `activatable` {`boolean`}\n\n  * `fixed` {`boolean`}\n\n  * `forceGroupSelection` {`boolean`}\n\n  * `fullwidth` {`boolean`}\n\n  * `defaultFocus` {`\"NONE\" | \"LIST_ROOT\" | \"FIRST_ITEM\" | \"LAST_ITEM\"`}\n\nProperties:\n\n  * `listElement_` {`List | null`}\n\n  * `slotElement` {`HTMLSlotElement | null`}\n\n  * `anchor` {`HTMLElement | null`}\n\n  * `open` {`boolean`}\n\n  * `quick` {`boolean`}\n\n  * `wrapFocus` {`boolean`}\n\n  * `innerRole` {`\"menu\" | \"listbox\"`}\n\n  * `corner` {`\"TOP_LEFT\" | \"TOP_RIGHT\" | \"BOTTOM_LEFT\" | \"BOTTOM_RIGHT\" | \"TOP_START\" | \"TOP_END\" | \"BOTTOM_START\" | \"BOTTOM_END\"`}\n\n  * `x` {`number | null`}\n\n  * `y` {`number | null`}\n\n  * `absolute` {`boolean`}\n\n  * `multi` {`boolean`}\n\n  * `activatable` {`boolean`}\n\n  * `fixed` {`boolean`}\n\n  * `forceGroupSelection` {`boolean`}\n\n  * `fullwidth` {`boolean`}\n\n  * `defaultFocus` {`\"NONE\" | \"LIST_ROOT\" | \"FIRST_ITEM\" | \"LAST_ITEM\"`}\n\n  * `_listUpdateComplete` {`Promise<unknown> | null`}\n\n  * `listElement` {`List | null`}\n\n  * `items` {`ListItemBase[]`}\n\n  * `index` {`MWCListIndex`}\n\n  * `selected` {`ListItemBase | ListItemBase[] | null`}\n\n  * `mdcRoot` {`MenuSurface`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCMenuFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCMenuFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`unknown`}\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`}\n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`}",
+      "references": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/menu"
+        },
+        {
+          "name": "API",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/menu#api"
+        },
+        {
+          "name": "Demo",
+          "url": "https://material-components.github.io/material-components-web-components/demos/menu/"
+        },
+        {
+          "name": "MD Guide",
+          "url": "https://material.io/design/components/menus.html"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "anchor",
+          "description": "`anchor` {`HTMLElement | null`}\n\nDetermines from which element the floating menu should calculate sizing and position offsets. In the default case, both `mwc-menu` and the anchor should share a parent with `position:relative`. Changing anchor typically requires `absolute` or `fixed`.\n\nDefault: null",
+          "values": []
+        },
+        {
+          "name": "open",
+          "description": "`open` {`boolean`}\n\nWhether the menu should open and display.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "quick",
+          "description": "`quick` {`boolean`}\n\nWhether to skip the opening animation.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "wrapFocus",
+          "description": "`wrapFocus` {`boolean`}\n\nProxies to [`mwc-list`'s](https://github.com/material-components/material-components-web-components/tree/master/packages/list#mwc-list-1) `wrapFocus` property.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "innerRole",
+          "description": "`innerRole` {`\"menu\" | \"listbox\"`}\n\n\n\nDefault: menu",
+          "values": [
+            {
+              "name": "menu"
+            },
+            {
+              "name": "listbox"
+            }
+          ]
+        },
+        {
+          "name": "corner",
+          "description": "`corner` {`\"TOP_LEFT\" | \"TOP_RIGHT\" | \"BOTTOM_LEFT\" | \"BOTTOM_RIGHT\" | \"TOP_START\" | \"TOP_END\" | \"BOTTOM_START\" | \"BOTTOM_END\"`}\n\nCorner of the anchor from which the menu should position itself.\n\nDefault: TOP_START",
+          "values": [
+            {
+              "name": "TOP_LEFT"
+            },
+            {
+              "name": "TOP_RIGHT"
+            },
+            {
+              "name": "BOTTOM_LEFT"
+            },
+            {
+              "name": "BOTTOM_RIGHT"
+            },
+            {
+              "name": "TOP_START"
+            },
+            {
+              "name": "TOP_END"
+            },
+            {
+              "name": "BOTTOM_START"
+            },
+            {
+              "name": "BOTTOM_END"
+            }
+          ]
+        },
+        {
+          "name": "x",
+          "description": "`x` {`number | null`}\n\nSets horizontal position when `absolute` or `fixed`. When given an `anchor`, sets horizontal position relative to `anchor` at given `corner`. Requires `y` not to be null.\n\nDefault: null",
+          "values": []
+        },
+        {
+          "name": "y",
+          "description": "`y` {`number | null`}\n\nSets vertical position when `absolute` or `fixed`. When given an `anchor`, sets vertical position relative to `anchor` at given `corner`. Requires `x` not to be null.\n\nDefault: null",
+          "values": []
+        },
+        {
+          "name": "absolute",
+          "description": "`absolute` {`boolean`}\n\nMakes the menu's position `absolute` which will be relative to whichever ancestor has `position:relative`. Setting `x` and `y` will modify the menu's `left` and `top`. Setting `anchor` will attempt to position the menu to the `anchor`.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "multi",
+          "description": "`multi` {`boolean`}\n\nProxies to [`mwc-list`'s](https://github.com/material-components/material-components-web-components/tree/master/packages/list#mwc-list-1) `multi` property.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "activatable",
+          "description": "`activatable` {`boolean`}\n\nProxies to [`mwc-list`'s](https://github.com/material-components/material-components-web-components/tree/master/packages/list#mwc-list-1) `activatable` property.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "fixed",
+          "description": "`fixed` {`boolean`}\n\nMakes the menu's position `fixed` which will be relative to the window. Setting `x` and `y` will modify the menu's `left` and `top`. Setting `anchor` will attempt to position the menu to the `anchor`'s immediate position before opening.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "forceGroupSelection",
+          "description": "`forceGroupSelection` {`boolean`}\n\nForces a menu group to have a selected item by preventing deselection of menu items in menu groups via user interaction.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "fullwidth",
+          "description": "`fullwidth` {`boolean`}\n\nSets surface width to 100%.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "defaultFocus",
+          "description": "`defaultFocus` {`\"NONE\" | \"LIST_ROOT\" | \"FIRST_ITEM\" | \"LAST_ITEM\"`}\n\nItem to focus upon menu open.\n\nDefault: LIST_ROOT",
+          "values": [
+            {
+              "name": "NONE"
+            },
+            {
+              "name": "LIST_ROOT"
+            },
+            {
+              "name": "FIRST_ITEM"
+            },
+            {
+              "name": "LAST_ITEM"
+            }
+          ]
+        },
+        {
+          "name": "onselected",
+          "description": "`selected` - {SelectedDetail}"
+        },
+        {
+          "name": "onaction",
+          "description": "`action` - {ActionDetail}"
+        },
+        {
+          "name": "onopened",
+          "description": "`opened`"
+        },
+        {
+          "name": "onclosed",
+          "description": "`closed`"
+        }
+      ]
+    },
+    {
+      "name": "mwc-notched-outline",
+      "description": ":warning: This component is a work in progress.\n\nAttributes:\n\n  * `width` {`number`}\n\n  * `open` {`boolean`}\n\nProperties:\n\n  * `width` {`number`}\n\n  * `open` {`boolean`}\n\n  * `lastOpen` {`boolean`}\n\n  * `notchElement` {`HTMLDivElement`}\n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCNotchedOutlineFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCNotchedOutlineFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`unknown`}\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`}\n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`}",
+      "attributes": [
+        {
+          "name": "width",
+          "description": "`width` {`number`}\n\n\n\nDefault: 0"
+        },
+        {
+          "name": "open",
+          "description": "`open` {`boolean`}\n\n\n\nDefault: false",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "mwc-radio-list-item",
+      "description": "Lists are continuous, vertical indexes of text or images.\nUse it like this:\n```html\n<mwc-list>\n  <mwc-radio-list-item group='a' selected>Item 0</mwc-radio-list-item>\n  <mwc-radio-list-item group='a'>Item 1</mwc-radio-list-item>\n  <li divider padded role='separator'></li>\n  <mwc-radio-list-item left group='a'>Item 2 (left)</mwc-radio-list-item>\n  <mwc-radio-list-item left group='a'>Item 3 (left)</mwc-radio-list-item>\n</mwc-list>\n```\n\nEvents:\n\n  * `request-selected` - {RequestSelectedDetail}\n\n  * `list-item-rendered`\n\nAttributes:\n\n  * `left` {`boolean`}\n\n  * `value` {`string`}\n\n  * `group` {`string | null`}\n\n  * `tabindex` {`number`}\n\n  * `disabled` {`boolean`}\n\n  * `twoline` {`boolean`}\n\n  * `activated` {`boolean`}\n\n  * `graphic` {`GraphicType`}\n\n  * `hasMeta` {`boolean`}\n\n  * `noninteractive` {`boolean`}\n\n  * `selected` {`boolean`}\n\nProperties:\n\n  * `radioElement` {`Radio`}\n\n  * `left` {`boolean`}\n\n  * `_changeFromClick` {`boolean`}\n\n  * `slotElement` {`HTMLSlotElement | null`}\n\n  * `value` {`string`}\n\n  * `group` {`string | null`}\n\n  * `tabindex` {`number`}\n\n  * `disabled` {`boolean`}\n\n  * `twoline` {`boolean`}\n\n  * `activated` {`boolean`}\n\n  * `graphic` {`GraphicType`}\n\n  * `hasMeta` {`boolean`}\n\n  * `noninteractive` {`boolean`}\n\n  * `selected` {`boolean`}\n\n  * `shouldRenderRipple` {`boolean`}\n\n  * `boundOnClick`\n\n  * `_firstChanged` {`boolean`}\n\n  * `_skipPropRequest` {`boolean`}\n\n  * `rippleHandlers` {`RippleHandlers`}\n\n  * `listeners` {`{ target: Element; eventNames: string[]; cb: EventListenerOrEventListenerObject; }[]`}\n\n  * `text` {`string`}\n\n  * `ripple` {`Promise<Ripple | null>`}\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`}\n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`}",
+      "references": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/list"
+        },
+        {
+          "name": "API",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/list#api"
+        },
+        {
+          "name": "Demo",
+          "url": "https://material-components.github.io/material-components-web-components/demos/list/"
+        },
+        {
+          "name": "MD Guide",
+          "url": "https://material.io/design/components/lists.html"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "left",
+          "description": "`left` {`boolean`}\n\nDisplays the checkbox on the left. Overrides `graphic`.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "value",
+          "description": "`value` {`string`}\n\nValue associated with this list item (used by `mwc-select`).\n\nDefault: ''"
+        },
+        {
+          "name": "group",
+          "description": "`group` {`string | null`}\n\nUsed to group the internal `mwc-radio`s together (also used by `mwc-menu` for selection groups).\n\nDefault: null",
+          "values": []
+        },
+        {
+          "name": "tabindex",
+          "description": "`tabindex` {`number`}\n\nReflects `tabindex` and sets internal tab indices.\n\nDefault: -1"
+        },
+        {
+          "name": "disabled",
+          "description": "`disabled` {`boolean`}\n\nReflects `disabled` and sets internal `disabled` attributes.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "twoline",
+          "description": "`twoline` {`boolean`}\n\nActivates the two-line variant and enables the `secondary` slot.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "activated",
+          "description": "`activated` {`boolean`}\n\nActivates focus-persistent ripple.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "graphic",
+          "description": "`graphic` {`GraphicType`}\n\nDetermines which graphic layout to show and enables the `graphic` slot when value is not `control` or `null`.\n\nDefault: control"
+        },
+        {
+          "name": "hasMeta",
+          "description": "`hasMeta` {`boolean`}\n\nActivates the meta layout tile and enables the `meta` slot.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "noninteractive",
+          "description": "`noninteractive` {`boolean`}\n\nDisables focus and pointer events for the list item.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "selected",
+          "description": "`selected` {`boolean`}\n\nDenotes that the list item is selected.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "onrequest-selected",
+          "description": "`request-selected` - {RequestSelectedDetail}"
+        },
+        {
+          "name": "onlist-item-rendered",
+          "description": "`list-item-rendered`"
+        }
+      ]
+    },
+    {
+      "name": "mwc-radio",
+      "description": "Radio buttons allow the user to select one option from a set. Use radio buttons when the user needs to see all available options.\nUse it like this:\n```html\n<mwc-radio name='myGroup' value='value2' checked></mwc-radio>\n```\n\nEvents:\n\n  * `checked`\n\nAttributes:\n\n  * `global` {`boolean`}\n\n  * `checked` {`boolean`}\n\n  * `disabled` {`boolean`}\n\n  * `value` {`string`}\n\n  * `name` {`string`}\n\nProperties:\n\n  * `rippleElement` {`HTMLElementWithRipple`}\n\n  * `_checked` {`boolean`}\n\n  * `global` {`boolean`}\n\n  * `checked` {`boolean`} - We define our own getter/setter for `checked` because we need to track\nchanges to it synchronously.\n\nThe order in which the `checked` property is set across radio buttons\nwithin the same group is very important. However, we can't rely on\nUpdatingElement's `updated` callback to observe these changes (which is\nalso what the `@observer` decorator uses), because it batches changes to\nall properties.\n\nConsider:\n\n   radio1.disabled = true;\n   radio2.checked = true;\n   radio1.checked = true;\n\nIn this case we'd first see all changes for radio1, and then for radio2,\nand we couldn't tell that radio1 was the most recently checked.\n\n  * `disabled` {`boolean`}\n\n  * `value` {`string`}\n\n  * `name` {`string`}\n\n  * `_selectionController` {`SelectionController | undefined`}\n\n  * `formElement` {`HTMLInputElement`} - Form-capable element in the component ShadowRoot.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCRadioFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCRadioFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`RippleInterface | undefined`} - Implement ripple getter for Ripple integration with mwc-formfield\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`}\n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`}",
+      "references": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/radio"
+        },
+        {
+          "name": "API",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/radio#api"
+        },
+        {
+          "name": "Demo",
+          "url": "https://material-components.github.io/material-components-web-components/demos/radio/"
+        },
+        {
+          "name": "MD Guide",
+          "url": "https://material.io/design/components/selection-controls.html#radio-buttons"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "global",
+          "description": "`global` {`boolean`}\n\nIf `true`, this radio button will use a global, document-level scope for its selection group rather than its local shadow root.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "checked",
+          "description": "`checked` {`boolean`}\n\nWhether this radio button is the currently-selected one in its group. Maps to the native [`checked`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio#checked) attribute.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "disabled",
+          "description": "`disabled` {`boolean`}\n\nIf `true`, this radio button cannot be selected or de-selected. Maps to the native [`disabled`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#disabled) attribute.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "value",
+          "description": "`value` {`string`}\n\nValue of the input for form submission. Maps to the native [`value`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio#value) attribute.\n\nDefault: ''"
+        },
+        {
+          "name": "name",
+          "description": "`name` {`string`}\n\nName of the input for form submission, and identifier for the selection group. Only one radio button can be checked for a given selection group. Maps to the native [`name`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#name) attribute.\n\nDefault: ''"
+        },
+        {
+          "name": "onchecked",
+          "description": "`checked`"
+        }
+      ]
+    },
+    {
+      "name": "mwc-ripple",
+      "description": "Ripple provides the JavaScript and CSS required to provide components (or any element at all) with a material 'ink ripple' interaction effect. Use it like this: \n```html<mwc-ripple></mwc-ripple>\n```\n\nAttributes:\n\n  * `primary` {`boolean`}\n\n  * `accent` {`boolean`}\n\n  * `unbounded` {`boolean`}\n\n  * `disabled` {`boolean`}\n\n  * `activated` {`boolean`}\n\n  * `selected` {`boolean`}\n\nProperties:\n\n  * `primary` {`boolean`}\n\n  * `accent` {`boolean`}\n\n  * `unbounded` {`boolean`}\n\n  * `disabled` {`boolean`}\n\n  * `activated` {`boolean`}\n\n  * `selected` {`boolean`}\n\n  * `hovering` {`boolean`}\n\n  * `bgFocused` {`boolean`}\n\n  * `fgActivation` {`boolean`}\n\n  * `fgDeactivation` {`boolean`}\n\n  * `fgScale` {`string`}\n\n  * `fgSize` {`string`}\n\n  * `translateStart` {`string`}\n\n  * `translateEnd` {`string`}\n\n  * `leftPos` {`string`}\n\n  * `topPos` {`string`}\n\n  * `isActive` {`boolean`}\n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCRippleFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCRippleFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`unknown`}\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`}\n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`}\n\n  * `startHover` {`() => void`}\n\n  * `endHover` {`() => void`}\n\n  * `startPress` {`(e?: Event | undefined) => void`}\n\n  * `endPress` {`() => void`}\n\n  * `startFocus` {`() => void`}\n\n  * `endFocus` {`() => void`}",
+      "references": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/ripple"
+        },
+        {
+          "name": "API",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/ripple#api"
+        },
+        {
+          "name": "Demo",
+          "url": "https://material-components.github.io/material-components-web-components/demos/ripple/"
+        },
+        {
+          "name": "MD Guide",
+          "url": "https://material.io/design/interaction/states.html"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "primary",
+          "description": "`primary` {`boolean`}\n\nWhen true, sets the ripple color to `--mdc-theme-primary`. Will be overridden by `--mdc-ripple-color` if set.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "accent",
+          "description": "`accent` {`boolean`}\n\nWhen true, sets the ripple color to `--mdc-theme-secondary`. Will be overridden by `--mdc-ripple-color` if set.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "unbounded",
+          "description": "`unbounded` {`boolean`}\n\nWhen true, the ripple will flow outside the component in a circle.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "disabled",
+          "description": "`disabled` {`boolean`}\n\nSet true to disable the ripple when the container of the ripple is disabled.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "activated",
+          "description": "`activated` {`boolean`}\n\nSet true when the container of the ripple should be in an [`activated`](https://material.io/design/interaction/states.html#activated) state.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "selected",
+          "description": "`selected` {`boolean`}\n\nSet true when the container of the ripple should be in a [`selected`](https://material.io/design/interaction/states.html#selected) state.\n\nDefault: false",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "mwc-select",
+      "description": "Selects display a list of choices on temporary surfaces.\nUse it like this:\n```html\n<mwc-select label='filled'>\n  <mwc-list-item></mwc-list-item>\n  <mwc-list-item value='0'>Item 0</mwc-list-item>\n  <mwc-list-item value='1'>Item 1</mwc-list-item>\n  <mwc-list-item value='2'>Item 2</mwc-list-item>\n  <mwc-list-item value='3'>Item 3</mwc-list-item>\n</mwc-select>\n```\n\nEvents:\n\n  * `selected` - {SelectedDetail}\n\n  * `action` - {ActionDetail}\n\n  * `opened`\n\n  * `closed`\n\n  * `change`\n\n  * `invalid`\n\n  * `focus`\n\n  * `blur`\n\nAttributes:\n\n  * `disabled` {`boolean`}\n\n  * `outlined` {`boolean`}\n\n  * `label` {`string`}\n\n  * `outlineOpen` {`boolean`}\n\n  * `outlineWidth` {`number`}\n\n  * `value` {`string`}\n\n  * `selectedText` {`string`}\n\n  * `icon` {`string`}\n\n  * `menuOpen` {`boolean`}\n\n  * `helper` {`string`}\n\n  * `validateOnInitialRender` {`boolean`}\n\n  * `validationMessage` {`string`}\n\n  * `required` {`boolean`}\n\n  * `fullwidth` {`boolean`}\n\n  * `naturalMenuWidth` {`boolean`}\n\n  * `isUiValid` {`boolean`}\n\nProperties:\n\n  * `slotElement` {`HTMLSlotElement | null`}\n\n  * `nativeSelectElement` {`HTMLSelectElement | null`}\n\n  * `nativeInputElement` {`HTMLInputElement | null`}\n\n  * `lineRippleElement` {`LineRipple | null`}\n\n  * `labelElement` {`FloatingLabel | null`}\n\n  * `outlineElement` {`NotchedOutline | null`}\n\n  * `menuElement` {`Menu | null`}\n\n  * `anchorElement` {`HTMLDivElement | null`}\n\n  * `disabled` {`boolean`}\n\n  * `outlined` {`boolean`}\n\n  * `label` {`string`}\n\n  * `outlineOpen` {`boolean`}\n\n  * `outlineWidth` {`number`}\n\n  * `value` {`string`}\n\n  * `selectedText` {`string`}\n\n  * `icon` {`string`}\n\n  * `menuOpen` {`boolean`}\n\n  * `helper` {`string`}\n\n  * `validateOnInitialRender` {`boolean`}\n\n  * `validationMessage` {`string`}\n\n  * `required` {`boolean`}\n\n  * `fullwidth` {`boolean`}\n\n  * `naturalMenuWidth` {`boolean`}\n\n  * `isUiValid` {`boolean`}\n\n  * `items` {`ListItemBase[]`}\n\n  * `selected` {`ListItemBase | null`}\n\n  * `index` {`number`}\n\n  * `listeners` {`{ target: Element; name: string; cb: EventListenerOrEventListenerObject; }[]`}\n\n  * `onBodyClickBound` {`(evt: MouseEvent) => void`}\n\n  * `_menuUpdateComplete` {`Promise<unknown> | null`}\n\n  * `shouldRenderHelperText` {`boolean`}\n\n  * `renderReady` {`boolean`}\n\n  * `valueSetDirectly` {`boolean`}\n\n  * `validityTransform` {`((value: string, nativeValidity: ValidityState) => Partial<ValidityState>) | null`}\n\n  * `_validity` {`ValidityState`}\n\n  * `validity` {`ValidityState`}\n\n  * `formElement` {`HTMLInputElement`} - Form-capable element in the component ShadowRoot.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCSelectFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCSelectFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`RippleInterface | Promise<RippleInterface | null> | undefined`} - Implement ripple getter for Ripple integration with mwc-formfield\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`}\n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`}",
+      "references": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/select"
+        },
+        {
+          "name": "API",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/select#api"
+        },
+        {
+          "name": "Demo",
+          "url": "https://material-components.github.io/material-components-web-components/demos/select/"
+        },
+        {
+          "name": "MD Guide",
+          "url": "https://material.io/components/menus/#exposed-dropdown-menu"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "`disabled` {`boolean`}\n\nWhether or not the select should be disabled.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "outlined",
+          "description": "`outlined` {`boolean`}\n\nWhether or not to show the material outlined variant.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "label",
+          "description": "`label` {`string`}\n\nSets floating label value. __NOTE:__ The label will not float if the selected item has a falsey value property.\n\nDefault: ''"
+        },
+        {
+          "name": "outlineOpen",
+          "description": "`outlineOpen` {`boolean`}\n\n\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "outlineWidth",
+          "description": "`outlineWidth` {`number`}\n\n\n\nDefault: 0"
+        },
+        {
+          "name": "value",
+          "description": "`value` {`string`}\n\nThe select control's value determined by the `value` property of the currently selected list item. Setting value will attempt to select a list-item with the same value. If one does not match, it will set itself to `''` and the `index` to `-1`. Setting `value` before the list item is attached will not select the item.\n\nDefault: ''"
+        },
+        {
+          "name": "selectedText",
+          "description": "`selectedText` {`string`}\n\n\n\nDefault: ''"
+        },
+        {
+          "name": "icon",
+          "description": "`icon` {`string`}\n\nLeading icon to display in select. See [`mwc-icon`](https://github.com/material-components/material-components-web-components/tree/master/packages/icon). _Note_: for proper list spacing, each list item must have `graphic='icon'` or `graphic='avatar'` to be set.\n\nDefault: ''"
+        },
+        {
+          "name": "menuOpen",
+          "description": "`menuOpen` {`boolean`}\n\n\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "helper",
+          "description": "`helper` {`string`}\n\nHelper text to display below the select. Display default only when focused.\n\nDefault: ''"
+        },
+        {
+          "name": "validateOnInitialRender",
+          "description": "`validateOnInitialRender` {`boolean`}\n\nRuns validation check on initial render.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "validationMessage",
+          "description": "`validationMessage` {`string`}\n\nMessage to show in the error color when the select is invalid. (Helper text will not be visible)\n\nDefault: ''"
+        },
+        {
+          "name": "required",
+          "description": "`required` {`boolean`}\n\nDisplays error state if value is empty and select is blurred.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "fullwidth",
+          "description": "`fullwidth` {`boolean`}\n\n\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "naturalMenuWidth",
+          "description": "`naturalMenuWidth` {`boolean`}\n\nSets the dropdown menu's width to `auto`.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "isUiValid",
+          "description": "`isUiValid` {`boolean`}\n\n\n\nDefault: true",
+          "valueSet": "v"
+        },
+        {
+          "name": "onselected",
+          "description": "`selected` - {SelectedDetail}"
+        },
+        {
+          "name": "onaction",
+          "description": "`action` - {ActionDetail}"
+        },
+        {
+          "name": "onopened",
+          "description": "`opened`"
+        },
+        {
+          "name": "onclosed",
+          "description": "`closed`"
+        },
+        {
+          "name": "onchange",
+          "description": "`change`"
+        },
+        {
+          "name": "oninvalid",
+          "description": "`invalid`"
+        },
+        {
+          "name": "onfocus",
+          "description": "`focus`"
+        },
+        {
+          "name": "onblur",
+          "description": "`blur`"
+        }
+      ]
+    },
+    {
+      "name": "mwc-slider",
+      "description": "Sliders allow users to make selections from a range of values.\nUse it like this:\n```html\n<mwc-slider value='25' min='10' max='50'></mwc-slider>\n```\n\nAttributes:\n\n  * `min` {`number`}\n\n  * `max` {`number`}\n\n  * `value` {`number`}\n\n  * `step` {`number`}\n\n  * `disabled` {`boolean`}\n\n  * `pin` {`boolean`}\n\n  * `markers` {`boolean`}\n\n  * `pinMarkerText` {`string`}\n\n  * `trackMarkerContainerStyles`\n\n  * `thumbContainerStyles`\n\n  * `trackStyles`\n\nProperties:\n\n  * `thumbContainer` {`HTMLElement`}\n\n  * `pinMarker` {`HTMLElement`}\n\n  * `min` {`number`}\n\n  * `max` {`number`}\n\n  * `_value` {`number`}\n\n  * `value` {`number`}\n\n  * `step` {`number`}\n\n  * `disabled` {`boolean`}\n\n  * `pin` {`boolean`}\n\n  * `markers` {`boolean`}\n\n  * `pinMarkerText` {`string`}\n\n  * `trackMarkerContainerStyles`\n\n  * `thumbContainerStyles`\n\n  * `trackStyles`\n\n  * `isFoundationDestroyed` {`boolean`}\n\n  * `formElement` {`HTMLElement`} - Form-capable element in the component ShadowRoot.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCSliderFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCSliderFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`RippleInterface | Promise<RippleInterface | null> | undefined`} - Implement ripple getter for Ripple integration with mwc-formfield\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`}\n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`}",
+      "references": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/slider"
+        },
+        {
+          "name": "API",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/slider#api"
+        },
+        {
+          "name": "Demo",
+          "url": "https://material-components.github.io/material-components-web-components/demos/slider/"
+        },
+        {
+          "name": "MD Guide",
+          "url": "https://material.io/design/components/sliders.html"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "min",
+          "description": "`min` {`number`}\n\nMinimum value of the slider.\n\nDefault: 0"
+        },
+        {
+          "name": "max",
+          "description": "`max` {`number`}\n\nMaximum value of the slider.\n\nDefault: 100"
+        },
+        {
+          "name": "value",
+          "description": "`value` {`number`}\n\nCurrent value of the slider.\n\nDefault: 0"
+        },
+        {
+          "name": "step",
+          "description": "`step` {`number`}\n\nWhen defined, the slider will quantize (round to the nearest multiple) all values to match that step value, except for the minimum and maximum values, which can always be set. When 0, quantization is disabled.<br> **NOTE:** Throws when <0.\n\nDefault: 0"
+        },
+        {
+          "name": "disabled",
+          "description": "`disabled` {`boolean`}\n\n\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "pin",
+          "description": "`pin` {`boolean`}\n\nShows the thumb pin on a discrete slider.<br> **NOTE:** Numbers displayed inside the slider will be rounded to at most 3 decimal digits.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "markers",
+          "description": "`markers` {`boolean`}\n\nhows the tick marks for each step on the track when the slider is discrete.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "pinMarkerText",
+          "description": "`pinMarkerText` {`string`}\n\n\n\nDefault: ''"
+        },
+        {
+          "name": "trackMarkerContainerStyles",
+          "description": "`trackMarkerContainerStyles`\n\n\n\nDefault: [object Object]"
+        },
+        {
+          "name": "thumbContainerStyles",
+          "description": "`thumbContainerStyles`\n\n\n\nDefault: [object Object]"
+        },
+        {
+          "name": "trackStyles",
+          "description": "`trackStyles`\n\n\n\nDefault: [object Object]"
+        }
+      ]
+    },
+    {
+      "name": "mwc-snackbar",
+      "description": "Snackbars provide brief messages about app processes at the bottom of the screen.\nUse it like this:\n```html\n<mwc-snackbar\n  id='photoErrorSnackbar'\n  labelText='Can't send photo. Retry in 5 seconds.'\n>\n</mwc-snackbar>\n```\n\nAttributes:\n\n  * `open` {`boolean`}\n\n  * `timeoutMs` {`number`}\n\n  * `closeOnEscape` {`boolean`}\n\n  * `labelText` {`string`}\n\n  * `stacked` {`boolean`}\n\n  * `leading` {`boolean`}\n\nProperties:\n\n  * `labelElement` {`HTMLElement`}\n\n  * `open` {`boolean`}\n\n  * `timeoutMs` {`number`}\n\n  * `closeOnEscape` {`boolean`}\n\n  * `labelText` {`string`}\n\n  * `stacked` {`boolean`}\n\n  * `leading` {`boolean`}\n\n  * `reason` {`string`}\n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCSnackbarFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCSnackbarFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`unknown`}\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`}\n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`}",
+      "references": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/snackbar"
+        },
+        {
+          "name": "API",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/snackbar#api"
+        },
+        {
+          "name": "Demo",
+          "url": "https://material-components.github.io/material-components-web-components/demos/snackbar/"
+        },
+        {
+          "name": "MD Guide",
+          "url": "https://material.io/design/components/snackbars.html"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "open",
+          "description": "`open` {`boolean`}\n\nWhether the snackbar is currently open.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "timeoutMs",
+          "description": "`timeoutMs` {`number`}\n\nAutomatic dismiss timeout in milliseconds. Value must be between `4000` and `10000`  (or `-1` to disable the timeout completely) or an error will be thrown. Defaults to `5000` (5 seconds).\n\nDefault: 5000"
+        },
+        {
+          "name": "closeOnEscape",
+          "description": "`closeOnEscape` {`boolean`}\n\nWhether the snackbar closes when it is focused and the user presses the ESC key. Defaults to `true`.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "labelText",
+          "description": "`labelText` {`string`}\n\nThe text content of the label element.\n\nDefault: ''"
+        },
+        {
+          "name": "stacked",
+          "description": "`stacked` {`boolean`}\n\nEnables the *stacked* layout (see docs).\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "leading",
+          "description": "`leading` {`boolean`}\n\nEnables the *leading* layout (see docs).\n\nDefault: false",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "mwc-switch",
+      "description": "Switches toggle the state of a single setting on or off. They are the preferred way to adjust settings on mobile.\nUse it like this:\n```html\n<mwc-switch checked></mwc-switch>\n```\n\nAttributes:\n\n  * `checked` {`boolean`}\n\n  * `disabled` {`boolean`}\n\nProperties:\n\n  * `checked` {`boolean`}\n\n  * `disabled` {`boolean`}\n\n  * `rippleNode` {`HTMLElementWithRipple`}\n\n  * `formElement` {`HTMLInputElement`} - Form-capable element in the component ShadowRoot.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCSwitchFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCSwitchFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`RippleInterface | undefined`} - Implement ripple getter for Ripple integration with mwc-formfield\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`}\n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`}",
+      "references": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/switch"
+        },
+        {
+          "name": "API",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/switch#api"
+        },
+        {
+          "name": "Demo",
+          "url": "https://material-components.github.io/material-components-web-components/demos/switch/"
+        },
+        {
+          "name": "MD Guide",
+          "url": "https://material.io/components/selection-controls/#switches"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "checked",
+          "description": "`checked` {`boolean`}\n\nWhether or not the switch should be checked / activated.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "disabled",
+          "description": "`disabled` {`boolean`}\n\nDisables the input and sets the disabled styles.\n\nDefault: false",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "mwc-tab-bar",
+      "description": "Tabs organize content across different screens, data sets, and other interactions.\nUse it like this:\n```html\n<mwc-tab-bar>\n  <mwc-tab label='Tab one'></mwc-tab>\n  <mwc-tab label='Tab two'></mwc-tab>\n  <mwc-tab label='Tab three'></mwc-tab>\n</mwc-tab-bar>\n```\n\nAttributes:\n\n  * `activeIndex` {`number`}\n\nProperties:\n\n  * `scrollerElement` {`TabScroller`}\n\n  * `tabsSlot` {`HTMLElement`}\n\n  * `activeIndex` {`number`}\n\n  * `_previousActiveIndex` {`number`}\n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCTabBarFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCTabBarFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`unknown`}\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`}\n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`}",
+      "references": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/tab-bar"
+        },
+        {
+          "name": "API",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/tab-bar#api"
+        },
+        {
+          "name": "Demo",
+          "url": "https://material-components.github.io/material-components-web-components/demos/tabs/"
+        },
+        {
+          "name": "MD Guide",
+          "url": "https://material.io/components/tabs/"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "activeIndex",
+          "description": "`activeIndex` {`number`}\n\nIndex of tab that is active.\n\nDefault: 0"
+        }
+      ]
+    },
+    {
+      "name": "mwc-tab-indicator",
+      "description": ":warning: This component is a work in progress.\n\nAttributes:\n\n  * `icon` {`string`}\n\n  * `fade` {`boolean`}\n\nProperties:\n\n  * `contentElement` {`HTMLElement`}\n\n  * `icon` {`string`}\n\n  * `fade` {`boolean`}\n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCSlidingTabIndicatorFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCTabIndicatorFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`unknown`}\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`}\n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`}",
+      "attributes": [
+        {
+          "name": "icon",
+          "description": "`icon` {`string`}\n\n\n\nDefault: ''"
+        },
+        {
+          "name": "fade",
+          "description": "`fade` {`boolean`}\n\n\n\nDefault: false",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "mwc-tab-scroller",
+      "description": ":warning: This component is a work in progress.\n\nProperties:\n\n  * `scrollAreaElement` {`HTMLElement`}\n\n  * `scrollContentElement` {`HTMLElement`}\n\n  * `_scrollbarHeight` {`number`}\n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCTabScrollerFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCTabScrollerFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`unknown`}\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`}\n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`}",
+      "attributes": []
+    },
+    {
+      "name": "mwc-tab",
+      "description": "Tabs organize content across different screens, data sets, and other interactions.\nUse it like this:\n```html\n<mwc-tab-bar>\n  <mwc-tab label='Tab one'></mwc-tab>\n  <mwc-tab label='Tab two'></mwc-tab>\n  <mwc-tab label='Tab three'></mwc-tab>\n</mwc-tab-bar>\n```\n\nAttributes:\n\n  * `label` {`string`}\n\n  * `icon` {`string`}\n\n  * `hasImageIcon` {`boolean`}\n\n  * `isFadingIndicator` {`boolean`}\n\n  * `minWidth` {`boolean`}\n\n  * `isMinWidthIndicator` {`boolean`}\n\n  * `active` {`boolean`}\n\n  * `indicatorIcon` {`string`}\n\n  * `stacked` {`boolean`}\n\n  * `focusOnActivate` {`boolean`}\n\nProperties:\n\n  * `tabIndicator` {`TabIndicator`}\n\n  * `label` {`string`}\n\n  * `icon` {`string`}\n\n  * `hasImageIcon` {`boolean`}\n\n  * `isFadingIndicator` {`boolean`}\n\n  * `minWidth` {`boolean`}\n\n  * `isMinWidthIndicator` {`boolean`}\n\n  * `active` {`boolean`}\n\n  * `indicatorIcon` {`string`}\n\n  * `stacked` {`boolean`}\n\n  * `focusOnActivate` {`boolean`}\n\n  * `_active` {`boolean`}\n\n  * `_tabIndicator` {`HTMLElement`} - Other properties\nindicatorContent <slot>\npreviousIndicatorClientRect (needed?)\nonTransitionEnd (needed?)\n\n  * `_contentElement` {`HTMLElement`}\n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCTabFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCTabFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`unknown`}\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`}\n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`}",
+      "references": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/tab"
+        },
+        {
+          "name": "API",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/tab#api"
+        },
+        {
+          "name": "Demo",
+          "url": "https://material-components.github.io/material-components-web-components/demos/tabs/"
+        },
+        {
+          "name": "MD Guide",
+          "url": "https://material.io/components/tabs/"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "label",
+          "description": "`label` {`string`}\n\nText label to display in tab.\n\nDefault: ''"
+        },
+        {
+          "name": "icon",
+          "description": "`icon` {`string`}\n\nMaterial design icon name to display (overridden by slotted icon).\n\nDefault: ''"
+        },
+        {
+          "name": "hasImageIcon",
+          "description": "`hasImageIcon` {`boolean`}\n\nDisplays a slot to show an image icon.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "isFadingIndicator",
+          "description": "`isFadingIndicator` {`boolean`}\n\nIndicator fades in and out instead of sliding.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "minWidth",
+          "description": "`minWidth` {`boolean`}\n\nShrinks tab as narrow as possible without causing text to wrap.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "isMinWidthIndicator",
+          "description": "`isMinWidthIndicator` {`boolean`}\n\nShrinks indicator to be the size of the content.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "active",
+          "description": "`active` {`boolean`}\n\nIndicates whether the tab's indicator is active.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "indicatorIcon",
+          "description": "`indicatorIcon` {`string`}\n\nMaterial design icon name to display as the indicator.\n\nDefault: ''"
+        },
+        {
+          "name": "stacked",
+          "description": "`stacked` {`boolean`}\n\nStacks icon on top of label text.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "focusOnActivate",
+          "description": "`focusOnActivate` {`boolean`}\n\n\n\nDefault: true",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "mwc-textarea",
+      "description": "Text areas let users enter and edit text.\nUse it like this:\n```html\n<mwc-textarea label='My Textarea'></mwc-textarea>\n```\n\nAttributes:\n\n  * `rows` {`number`}\n\n  * `cols` {`number`}\n\nProperties:\n\n  * `rows` {`number`}\n\n  * `cols` {`number`}\n\n  * `labelElement` {`FloatingLabel | null`}\n\n  * `lineRippleElement` {`LineRipple | null`}\n\n  * `outlineElement` {`NotchedOutline | null`}\n\n  * `notchElement` {`HTMLElement`}\n\n  * `value` {`string`}\n\n  * `type` {`TextFieldType`}\n\n  * `placeholder` {`string`}\n\n  * `label` {`string`}\n\n  * `icon` {`string`}\n\n  * `iconTrailing` {`string`}\n\n  * `disabled` {`boolean`}\n\n  * `required` {`boolean`}\n\n  * `minLength` {`number`}\n\n  * `maxLength` {`number`}\n\n  * `outlined` {`boolean`}\n\n  * `fullWidth` {`boolean`}\n\n  * `helper` {`string`}\n\n  * `validateOnInitialRender` {`boolean`}\n\n  * `validationMessage` {`string`}\n\n  * `autoValidate` {`boolean`}\n\n  * `pattern` {`string`}\n\n  * `min` {`string | number`}\n\n  * `max` {`string | number`}\n\n  * `step` {`number | null`}\n\n  * `size` {`number | null`}\n\n  * `helperPersistent` {`boolean`}\n\n  * `charCounter` {`boolean`}\n\n  * `endAligned` {`boolean`}\n\n  * `prefix` {`string`}\n\n  * `suffix` {`string`}\n\n  * `inputMode` {`TextFieldInputMode`}\n\n  * `readOnly` {`boolean`}\n\n  * `outlineOpen` {`boolean`}\n\n  * `outlineWidth` {`number`}\n\n  * `isUiValid` {`boolean`}\n\n  * `_validity` {`ValidityState`}\n\n  * `_outlineUpdateComplete` {`Promise<unknown> | null`}\n\n  * `validity` {`ValidityState`}\n\n  * `willValidate` {`boolean`}\n\n  * `selectionStart` {`number | null`}\n\n  * `selectionEnd` {`number | null`}\n\n  * `shouldRenderHelperText` {`boolean`}\n\n  * `charCounterVisible` {`boolean`}\n\n  * `validityTransform` {`((value: string, nativeValidity: ValidityState) => Partial<ValidityState>) | null`}\n\n  * `formElement` {`HTMLInputElement`} - Form-capable element in the component ShadowRoot.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCTextFieldFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCTextFieldFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`RippleInterface | Promise<RippleInterface | null> | undefined`} - Implement ripple getter for Ripple integration with mwc-formfield\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`}\n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`}",
+      "references": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/textarea"
+        },
+        {
+          "name": "API",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/textarea#api"
+        },
+        {
+          "name": "Demo",
+          "url": "https://material-components.github.io/material-components-web-components/demos/textarea/"
+        },
+        {
+          "name": "MD Guide",
+          "url": "https://material.io/design/components/text-fields.html"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "rows",
+          "description": "`rows` {`number`}\n\nSets number of visible text lines.\n\nDefault: 2"
+        },
+        {
+          "name": "cols",
+          "description": "`cols` {`number`}\n\nSets the visible width of the textarea.\n\nDefault: 20"
+        },
+        {
+          "name": "value",
+          "description": "`value` {`string`}\n\nThe input control's value.\n\nDefault: ''"
+        },
+        {
+          "name": "type",
+          "description": "`type` {`TextFieldType`}\n\nA string specifying the type of control to render.\n\nDefault: text"
+        },
+        {
+          "name": "placeholder",
+          "description": "`placeholder` {`string`}\n\nSets disappearing input placeholder.\n\nDefault: ''"
+        },
+        {
+          "name": "label",
+          "description": "`label` {`string`}\n\nSets floating label value.\n\nDefault: ''"
+        },
+        {
+          "name": "icon",
+          "description": "`icon` {`string`}\n\nLeading icon to display in input. See [`mwc-icon`](https://github.com/material-components/material-components-web-components/tree/master/packages/icon).\n\nDefault: ''"
+        },
+        {
+          "name": "iconTrailing",
+          "description": "`iconTrailing` {`string`}\n\nTrailing icon to display in input. See [`mwc-icon`](https://github.com/material-components/material-components-web-components/tree/master/packages/icon).\n\nDefault: ''"
+        },
+        {
+          "name": "disabled",
+          "description": "`disabled` {`boolean`}\n\nWhether or not the input should be disabled.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "required",
+          "description": "`required` {`boolean`}\n\nDisplays error state if value is empty and input is blurred.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "minLength",
+          "description": "`minLength` {`number`}\n\n\n\nDefault: -1"
+        },
+        {
+          "name": "maxLength",
+          "description": "`maxLength` {`number`}\n\nMaximum length to accept input.\n\nDefault: -1"
+        },
+        {
+          "name": "outlined",
+          "description": "`outlined` {`boolean`}\n\nWhether or not to show the material outlined variant.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "fullWidth",
+          "description": "`fullWidth` {`boolean`}\n\nWhether or not to make the input fullwidth. No longer displays `label`; only `placeholder` and `helper`.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "helper",
+          "description": "`helper` {`string`}\n\nHelper text to display below the input. Display default only when focused.\n\nDefault: ''"
+        },
+        {
+          "name": "validateOnInitialRender",
+          "description": "`validateOnInitialRender` {`boolean`}\n\nRuns validation check on initial render.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "validationMessage",
+          "description": "`validationMessage` {`string`}\n\nMessage to show in the error color when the textfield is invalid. (Helper text will not be visible)\n\nDefault: ''"
+        }
+      ]
+    },
+    {
+      "name": "mwc-textfield",
+      "description": "Text fields let users enter and edit text.\nUse it like this:\n```html\n<mwc-textfield label='My Textfield'></mwc-textfield>\n```\n\nEvents:\n\n  * `focus`\n\n  * `blur`\n\nAttributes:\n\n  * `value` {`string`}\n\n  * `type` {`TextFieldType`}\n\n  * `placeholder` {`string`}\n\n  * `label` {`string`}\n\n  * `icon` {`string`}\n\n  * `iconTrailing` {`string`}\n\n  * `disabled` {`boolean`}\n\n  * `required` {`boolean`}\n\n  * `minLength` {`number`}\n\n  * `maxLength` {`number`}\n\n  * `outlined` {`boolean`}\n\n  * `fullWidth` {`boolean`}\n\n  * `helper` {`string`}\n\n  * `validateOnInitialRender` {`boolean`}\n\n  * `validationMessage` {`string`}\n\n  * `autoValidate` {`boolean`}\n\n  * `pattern` {`string`}\n\n  * `min` {`string | number`}\n\n  * `max` {`string | number`}\n\n  * `step` {`number | null`}\n\n  * `size` {`number | null`}\n\n  * `helperPersistent` {`boolean`}\n\n  * `charCounter` {`boolean`}\n\n  * `endAligned` {`boolean`}\n\n  * `prefix` {`string`}\n\n  * `suffix` {`string`}\n\n  * `inputMode` {`TextFieldInputMode`}\n\n  * `readOnly` {`boolean`}\n\n  * `outlineOpen` {`boolean`}\n\n  * `outlineWidth` {`number`}\n\n  * `isUiValid` {`boolean`}\n\nProperties:\n\n  * `labelElement` {`FloatingLabel | null`}\n\n  * `lineRippleElement` {`LineRipple | null`}\n\n  * `outlineElement` {`NotchedOutline | null`}\n\n  * `notchElement` {`HTMLElement`}\n\n  * `value` {`string`}\n\n  * `type` {`TextFieldType`}\n\n  * `placeholder` {`string`}\n\n  * `label` {`string`}\n\n  * `icon` {`string`}\n\n  * `iconTrailing` {`string`}\n\n  * `disabled` {`boolean`}\n\n  * `required` {`boolean`}\n\n  * `minLength` {`number`}\n\n  * `maxLength` {`number`}\n\n  * `outlined` {`boolean`}\n\n  * `fullWidth` {`boolean`}\n\n  * `helper` {`string`}\n\n  * `validateOnInitialRender` {`boolean`}\n\n  * `validationMessage` {`string`}\n\n  * `autoValidate` {`boolean`}\n\n  * `pattern` {`string`}\n\n  * `min` {`string | number`}\n\n  * `max` {`string | number`}\n\n  * `step` {`number | null`}\n\n  * `size` {`number | null`}\n\n  * `helperPersistent` {`boolean`}\n\n  * `charCounter` {`boolean`}\n\n  * `endAligned` {`boolean`}\n\n  * `prefix` {`string`}\n\n  * `suffix` {`string`}\n\n  * `inputMode` {`TextFieldInputMode`}\n\n  * `readOnly` {`boolean`}\n\n  * `outlineOpen` {`boolean`}\n\n  * `outlineWidth` {`number`}\n\n  * `isUiValid` {`boolean`}\n\n  * `_validity` {`ValidityState`}\n\n  * `_outlineUpdateComplete` {`Promise<unknown> | null`}\n\n  * `validity` {`ValidityState`}\n\n  * `willValidate` {`boolean`}\n\n  * `selectionStart` {`number | null`}\n\n  * `selectionEnd` {`number | null`}\n\n  * `shouldRenderHelperText` {`boolean`}\n\n  * `charCounterVisible` {`boolean`}\n\n  * `validityTransform` {`((value: string, nativeValidity: ValidityState) => Partial<ValidityState>) | null`}\n\n  * `formElement` {`HTMLInputElement`} - Form-capable element in the component ShadowRoot.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCTextFieldFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCTextFieldFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`RippleInterface | Promise<RippleInterface | null> | undefined`} - Implement ripple getter for Ripple integration with mwc-formfield\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`}\n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`}",
+      "references": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/textfield"
+        },
+        {
+          "name": "API",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/textfield#api"
+        },
+        {
+          "name": "Demo",
+          "url": "https://material-components.github.io/material-components-web-components/demos/textfield/"
+        },
+        {
+          "name": "MD Guide",
+          "url": "https://material.io/design/components/text-fields.html"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "value",
+          "description": "`value` {`string`}\n\nThe input control's value.\n\nDefault: ''"
+        },
+        {
+          "name": "type",
+          "description": "`type` {`TextFieldType`}\n\nA string specifying the type of control to render.\n\nDefault: text"
+        },
+        {
+          "name": "placeholder",
+          "description": "`placeholder` {`string`}\n\nSets disappearing input placeholder.\n\nDefault: ''"
+        },
+        {
+          "name": "label",
+          "description": "`label` {`string`}\n\nSets floating label value.\n\nDefault: ''"
+        },
+        {
+          "name": "icon",
+          "description": "`icon` {`string`}\n\nLeading icon to display in input. See [`mwc-icon`](https://github.com/material-components/material-components-web-components/tree/master/packages/icon).\n\nDefault: ''"
+        },
+        {
+          "name": "iconTrailing",
+          "description": "`iconTrailing` {`string`}\n\nTrailing icon to display in input. See [`mwc-icon`](https://github.com/material-components/material-components-web-components/tree/master/packages/icon).\n\nDefault: ''"
+        },
+        {
+          "name": "disabled",
+          "description": "`disabled` {`boolean`}\n\nWhether or not the input should be disabled.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "required",
+          "description": "`required` {`boolean`}\n\nDisplays error state if value is empty and input is blurred.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "minLength",
+          "description": "`minLength` {`number`}\n\n\n\nDefault: -1"
+        },
+        {
+          "name": "maxLength",
+          "description": "`maxLength` {`number`}\n\nMaximum length to accept input.\n\nDefault: -1"
+        },
+        {
+          "name": "outlined",
+          "description": "`outlined` {`boolean`}\n\nWhether or not to show the material outlined variant.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "fullWidth",
+          "description": "`fullWidth` {`boolean`}\n\nWhether or not to make the input fullwidth. No longer displays `label`; only `placeholder` and `helper`.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "helper",
+          "description": "`helper` {`string`}\n\nHelper text to display below the input. Display default only when focused.\n\nDefault: ''"
+        },
+        {
+          "name": "validateOnInitialRender",
+          "description": "`validateOnInitialRender` {`boolean`}\n\nRuns validation check on initial render.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "validationMessage",
+          "description": "`validationMessage` {`string`}\n\nMessage to show in the error color when the textfield is invalid. (Helper text will not be visible)\n\nDefault: ''"
+        },
+        {
+          "name": "autoValidate",
+          "description": "`autoValidate` {`boolean`}\n\nReports validity on input rather than only on blur.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "pattern",
+          "description": "`pattern` {`string`}\n\n`HTMLInputElement.prototype.pattern`](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/Constraint_validation#Validation-related_attributes) (empty string will unset attribute)\n\nDefault: ''"
+        },
+        {
+          "name": "min",
+          "description": "`min` {`string | number`}\n\n[`HTMLInputElement.prototype.min`](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/Constraint_validation#Validation-related_attributes) (empty string will unset attribute)\n\nDefault: ''",
+          "values": []
+        },
+        {
+          "name": "max",
+          "description": "`max` {`string | number`}\n\n[`HTMLInputElement.prototype.max`](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/Constraint_validation#Validation-related_attributes) (empty string will unset attribute)\n\nDefault: ''",
+          "values": []
+        },
+        {
+          "name": "step",
+          "description": "`step` {`number | null`}\n\n[`HTMLInputElement.prototype.step`](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/Constraint_validation#Validation-related_attributes) (null will unset attribute)\n\nDefault: null",
+          "values": []
+        },
+        {
+          "name": "size",
+          "description": "`size` {`number | null`}\n\n[`HTMLInputElement.prototype.size`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#htmlattrdefsize) (null will unset attribute)\n\nDefault: null",
+          "values": []
+        },
+        {
+          "name": "helperPersistent",
+          "description": "`helperPersistent` {`boolean`}\n\nAlways show the helper text despite focus.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "charCounter",
+          "description": "`charCounter` {`boolean`}\n\n**Note: requries `maxLength` to be set.** Display character counter with max length.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "endAligned",
+          "description": "`endAligned` {`boolean`}\n\n\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "prefix",
+          "description": "`prefix` {`string`}\n\nPrefix text to display before the input.\n\nDefault: ''"
+        },
+        {
+          "name": "suffix",
+          "description": "`suffix` {`string`}\n\nSuffix text to display after the input.\n\nDefault: ''"
+        },
+        {
+          "name": "inputMode",
+          "description": "`inputMode` {`TextFieldInputMode`}\n\nProperty: inputMode"
+        },
+        {
+          "name": "readOnly",
+          "description": "`readOnly` {`boolean`}\n\n\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "outlineOpen",
+          "description": "`outlineOpen` {`boolean`}\n\n\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "outlineWidth",
+          "description": "`outlineWidth` {`number`}\n\n\n\nDefault: 0"
+        },
+        {
+          "name": "isUiValid",
+          "description": "`isUiValid` {`boolean`}\n\n\n\nDefault: true",
+          "valueSet": "v"
+        },
+        {
+          "name": "onfocus",
+          "description": "`focus`"
+        },
+        {
+          "name": "onblur",
+          "description": "`blur`"
+        }
+      ]
+    },
+    {
+      "name": "mwc-top-app-bar-fixed",
+      "description": "Fixed Top App Bars are a container for items such as application title, navigation icon, and action items that are always visible.\nFor a version of this component that scrolls, see <mwc-top-app-bar>\nUse it like this:\n```html\n<mwc-top-app-bar-fixed centerTitle>\n  <mwc-icon-button icon='menu' slot='navigationIcon'></mwc-icon-button>\n  <div slot='title'>Title</div>\n  <mwc-icon-button icon='favorite' slot='actionItems'></mwc-icon-button>\n  <div><!-- content --></div>\n</mwc-top-app-bar-fixed>\n```\n\nProperties:\n\n  * `prominent` {`boolean`}\n\n  * `dense` {`boolean`}\n\n  * `handleResize` {`() => void`}\n\n  * `_actionItemsSlot`\n\n  * `_scrollTarget`\n\n  * `centerTitle` {`boolean`}\n\n  * `scrollTarget` {`HTMLElement | Window`}\n\n  * `updateRootPosition`\n\n  * `handleTargetScroll` {`() => void`}\n\n  * `handleNavigationClick` {`() => void`}\n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCFixedTopAppBarFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCFixedTopAppBarFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`unknown`}\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`}\n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`}",
+      "references": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/top-app-bar-fixed"
+        },
+        {
+          "name": "API",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/top-app-bar-fixed#api"
+        },
+        {
+          "name": "Demo",
+          "url": "https://material-components.github.io/material-components-web-components/demos/top-app-bar-fixed/"
+        },
+        {
+          "name": "MD Guide",
+          "url": "https://material.io/design/components/app-bars-top.html"
+        }
+      ],
+      "attributes": []
+    },
+    {
+      "name": "mwc-top-app-bar",
+      "description": "Top App Bars are a container for items such as application title, navigation icon, and action items.\nFor a fixed position version of this component, see <mwc-top-app-bar-fixed>\nUse it like this:\n```html\n<mwc-top-app-bar centerTitle>\n  <mwc-icon-button icon='menu' slot='navigationIcon'></mwc-icon-button>\n  <div slot='title'>Title</div>\n  <mwc-icon-button icon='favorite' slot='actionItems'></mwc-icon-button>\n  <div><!-- content --></div>\n</mwc-top-app-bar>\n```\n\nAttributes:\n\n  * `prominent` {`boolean`}\n\n  * `dense` {`boolean`}\n\n  * `centerTitle` {`boolean`}\n\n  * `scrollTarget` {`HTMLElement | Window`}\n\nProperties:\n\n  * `prominent` {`boolean`}\n\n  * `dense` {`boolean`}\n\n  * `handleResize` {`() => void`}\n\n  * `_actionItemsSlot` {`HTMLElement`}\n\n  * `_scrollTarget` {`HTMLElement | Window`}\n\n  * `centerTitle` {`boolean`}\n\n  * `scrollTarget` {`HTMLElement | Window`}\n\n  * `handleTargetScroll` {`() => void`}\n\n  * `handleNavigationClick` {`() => void`}\n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCTopAppBarFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCTopAppBarFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`unknown`}\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`}\n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`}",
+      "references": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/top-app-bar"
+        },
+        {
+          "name": "API",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/top-app-bar#api"
+        },
+        {
+          "name": "Demo",
+          "url": "https://material-components.github.io/material-components-web-components/demos/top-app-bar/"
+        },
+        {
+          "name": "MD Guide",
+          "url": "https://material.io/design/components/app-bars-top.html"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "prominent",
+          "description": "`prominent` {`boolean`}\n\nMakes the bar much taller, can be combined with `dense`.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "dense",
+          "description": "`dense` {`boolean`}\n\nMakes the bar a little smaller for higher density applications.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "centerTitle",
+          "description": "`centerTitle` {`boolean`}\n\nCenters the title horizontally. Only meant to be used with 0 or 1 `actionItems`.\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "scrollTarget",
+          "description": "`scrollTarget` {`HTMLElement | Window`}\n\nElement used to listen for `scroll` events.\n\nDefault: window",
+          "values": []
+        }
+      ]
+    }
+  ],
+  "globalAttributes": [],
+  "valueSets": []
+}

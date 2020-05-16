@@ -1,0 +1,1239 @@
+{
+  "version": 1.1,
+  "properties": [
+    {
+      "name": "--mdc-icon-font",
+      "description": "Font to use for the icons. Default: Material Icons",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/icon#css-custom-properties"
+        },
+        {
+          "name": "Documentation 2",
+          "url": "https://google.github.io/material-design-icons/"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-icon-size",
+      "description": "Sets the size of the icon. Default: `24px`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/icon#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-theme-primary",
+      "description": "The theme primary color. Default: `#6200ee`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://material.io/develop/web/components/theme/"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-theme-secondary",
+      "description": "The theme secondary color. Default: `#018786`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://material.io/develop/web/components/theme/"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-theme-background",
+      "description": "The theme background color.",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://material.io/develop/web/components/theme/"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-theme-surface",
+      "description": "The theme surface color. Default: `#fff`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://material.io/develop/web/components/theme/"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-theme-on-primary",
+      "description": "Text color on top of a primary background. Default: `#ffffff`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://material.io/develop/web/components/theme/"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-theme-on-secondary",
+      "description": "Text color on top of a secondary background. Default: `#ffffff`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://material.io/develop/web/components/theme/"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-theme-on-surface",
+      "description": "Text color on top of a surface background. Default: `#000`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://material.io/develop/web/components/theme/"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-theme-text-primary-on-light",
+      "description": "Text color for primary on top of light background.",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://material.io/develop/web/components/theme/"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-theme-text-secondary-on-light",
+      "description": "Text color for secondary on top of light background.",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://material.io/develop/web/components/theme/"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-theme-text-hint-on-light",
+      "description": "Text color for hint on top of light background.",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://material.io/develop/web/components/theme/"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-theme-text-disabled-on-light",
+      "description": "Text color for disabled on top of light background. Default: `rgba(0, 0, 0, 0.38)`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://material.io/develop/web/components/theme/"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-theme-text-icon-on-light",
+      "description": "Text color for icon on top of light background.",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://material.io/develop/web/components/theme/"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-theme-text-primary-on-dark",
+      "description": "Text color for primary on top of dark background.",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://material.io/develop/web/components/theme/"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-theme-text-secondary-on-dark",
+      "description": "Text color for secondary on top of dark background.",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://material.io/develop/web/components/theme/"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-theme-text-hint-on-dark",
+      "description": "Text color for hint on top of dark background.",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://material.io/develop/web/components/theme/"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-theme-text-disabled-on-dark",
+      "description": "Text color for disabled on top of dark background.",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://material.io/develop/web/components/theme/"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-theme-text-icon-on-dark",
+      "description": "Text color for icon on top of dark background.",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://material.io/develop/web/components/theme/"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-button-horizontal-padding",
+      "description": "Left and right padding of the button label (for outlined buttons the outline width is automatically subtracted). Default: filled: `16px` outlined: `15px` default: `8px`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/button#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-button-outline-width",
+      "description": "`width` of the outline of an outlined button and attempts to keep the component size constant. Default: `1px`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/button#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-button-outline-color",
+      "description": "Color of the outline of an outlined element. (Overrides `--mdc-theme-primary`) Default: `--mdc-theme-primary`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/button#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-button-disabled-fill-color",
+      "description": "Background fill color of a disabled raised or unelevated button. Default: `rgba(0,0,0,0.12)` ",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/button#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-button-disabled-ink-color",
+      "description": "Text color of a disabled button as well as the outline color of a disabled outlined button. Default: `rgba(0,0,0,0.37)` ",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/button#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-button-disabled-outline-color",
+      "description": "Sets the color of the outline of a disabled outlined button. (Overrides `--mdc-button-disabled-ink-color`) Default: `--mdc-button-disabled-ink-color`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/button#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-button-raised-box-shadow",
+      "description": "Sets the box shadow of the raised button. Default: mdc elevation 2",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/button#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-button-raised-box-shadow-hover",
+      "description": "Sets the box shadow of the raised button when focused or hovered. Default: mdc elevation 4",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/button#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-button-raised-box-shadow-active",
+      "description": "Sets the box shadow of the raised button when active. Default: mdc elevation 8",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/button#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-button-raised-box-shadow-disabled",
+      "description": "Sets the box shadow of the raised button when disabled. Default: mdc elevation 0",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/button#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-checkbox-mark-color",
+      "description": "Color of mark inside a `checked` or `indeterminate` checkbox (enabled or disabled). Default: `#fff`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/checkbox#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-checkbox-unchecked-color",
+      "description": "Color of the unchecked box. Default: `rgba(0, 0, 0, 0.54)`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/checkbox#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-checkbox-disabled-color",
+      "description": "Color of the checkbox box and fill when disabled. Default: `rgba(0, 0, 0, 0.38)`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/checkbox#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-dialog-scrim-color",
+      "description": "Color of the scrim. (**Note:** setting alpha to 0 will still make scrim clickable but transparent). Default: `rgba(0, 0, 0, 0.32)`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/dialog#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-dialog-heading-ink-color",
+      "description": "Color of the heading text. Default: `rgba(0, 0, 0, 0.87)`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/dialog#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-dialog-content-ink-color",
+      "description": "Color applied to the projected content. (**Note:** it may also be possible to style the content via the light DOM since it is not encapsulated in a shadow root). Default: `rgba(0, 0, 0, 0.6)` ",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/dialog#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-dialog-scroll-divider-color",
+      "description": "Color of the dividers present when dialog is scrollable. Default: `rgba(0, 0, 0, 0.12)`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/dialog#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-dialog-min-width",
+      "description": "min-width ofthe dialog surface. Default: `280px`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/dialog#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-dialog-max-width",
+      "description": "max-width of the dialog surface. (**Note:** if max-width is < `560px`, there is a visual jank bug that will occur causing the max width to be `560px` when the window is sized to <= than `560px`). Default: `560px`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/dialog#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-dialog-max-height",
+      "description": "Max height of the dialog surface. Default: `calc(100% - 32px)`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/dialog#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-dialog-shape-radius",
+      "description": "Corner radius of the dialog surface. Default: `4px`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/dialog#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-dialog-box-shadow",
+      "description": "Sets the box shadow of the dialog. Default: mdc elevation 24",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/dialog#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-fab-box-shadow",
+      "description": "Sets the box shadow of the fab. Default: mdc elevation 6",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/fab#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-fab-box-shadow-hover",
+      "description": "Sets the box shadow of the fab when focused or hovered. Default: mdc elevation 8",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/fab#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-fab-box-shadow-active",
+      "description": "Sets the box shadow of the fab when active. Default: mdc elevation 12",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/fab#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-icon-button-ripple-opacity",
+      "description": "Opacity of the ripple on the icon button Default: `0.12`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/icon-button-toggle#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-icon-button-size",
+      "description": "Sets the size of the button wrapping the icon. Default: `48px`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/icon-button#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-linear-progress-buffer-color",
+      "description": "Sets the color of the buffer progress bar.<br> **NOTE:** to change the color of the buffering dots, you must do so in the image of `--mdc-linear-progress-buffering-dots-image`. Default: `#E6E6E6`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/linear-progress#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-linear-progress-buffering-dots-image",
+      "description": "Sets the image to use as the buffering dots. This pattern is then repeated horizontally and animated. Default: `url(data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' enable-background='new 0 0 5 2' xml:space='preserve' viewBox='0 0 5 2' preserveAspectRatio='none slice'%3E%3Ccircle cx='1' cy='1' r='1' fill='%23e6e6e6'/%3E%3C/svg%3E)`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/linear-progress#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-theme-text-primary-on-background",
+      "description": "Color of the primary text. Default: `rgba(0, 0, 0, 0.87)`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/list#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-list-vertical-padding",
+      "description": "Padding before and after the first and last list items. Default: `8px`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/list#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-list-side-padding",
+      "description": "Adjusts the padding of the `[padded]` list dividers (also propagates to `mwc-list-item`). Default: `16px`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/list#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-list-inset-margin",
+      "description": "Adjusts the left inset padding of an `[inset]` list divider. Typically used for dividing list items with icons. Default: `72px`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/list#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-theme-primary",
+      "description": "Color of the activated ripple and primary text color when activated. Default: `#6200ee`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/list#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-theme-on-surface",
+      "description": "Disabled text color Default: `#000`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/list#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-theme-text-icon-on-background",
+      "description": "Color of the graphic icon (if graphic is text icon). Default: `rgba(0, 0, 0, .38)`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/list#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-theme-text-primary-on-background",
+      "description": "Color of the primary text if not activated. Default: `rgba(0, 0, 0, .87)`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/list#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-theme-text-secondary-on-background",
+      "description": "Color of the secondary text if not activated. Default: `rgba(0, 0, 0, .54)`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/list#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-theme-hint-on-background",
+      "description": "Color of the meta (if is text or text icon). Default: `rgba(0, 0, 0, .38)`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/list#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-list-side-padding",
+      "description": "Side padding of the list item. Default: `16px`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/list#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-list-item-meta-size",
+      "description": "Line height of the meta icon or text and width & height of the slotted parent wrapper. Default: `24px`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/list#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-list-item-graphic-size",
+      "description": "Line height of the graphic and width & height of the slotted parent wrapper. `24px` when graphic is `'icon'`. `40px` when graphic is `'avatar'`. `56px` when graphic is `'medium'`, and `'large'`. Default: `24px`,`40px`,`56px`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/list#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-list-item-graphic-margin",
+      "description": "Margin between the text and graphic. `16px` when graphic is `'avatar'`, `'medium'`, `'large'`, and `'control'`. `32px` when graphic is `'icon'`. Default: `16px`, `32px`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/list#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-shape-medium",
+      "description": "Border radius of the dropdown. Default: `4px`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/menu#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-menu-item-height",
+      "description": "Height of single-line list-items in the menu. Default: `48px`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/menu#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-menu-min-width",
+      "description": "Menu min-width. Default: `auto`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/menu#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-menu-max-width",
+      "description": "Menu max-width. Default: `auto`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/menu#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-menu-z-index",
+      "description": "Z-index of the popup menu surface. Default: `8`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/menu#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-notched-outline-leading-width",
+      "description": "Width of the leading section of the outline (left of notch in LTR). Default: `12px`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/notched-outline#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-notched-outline-leading-border-radius",
+      "description": "Radius of the border on the leading end. **May require setting `--mdc-notched-outline-leading-width` to accommodate for the new radius** Default: `4px 0 0 4px`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/notched-outline#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-notched-outline-trailing-border-radius",
+      "description": "Radius of the border on the trailing end. Default: `0 4px 4px 0`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/notched-outline#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-notched-outline-stroke-width",
+      "description": "Outline width. Default: `1px`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/notched-outline#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-notched-outline-notch-offset",
+      "description": "Padding-top to apply to notch when open to compensate for border width box size Default: `0`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/notched-outline#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-notched-outline-border-color",
+      "description": "Sets the border / outline color. Default: none",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/notched-outline#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-radio-unchecked-color",
+      "description": "Color of the ring of an unchecked radio. Default: `rgba(0, 0, 0, 0.54)`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/radio#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-radio-disabled-color",
+      "description": "Color of the ring and circle of a disabled radio. Default: `rgba(0, 0, 0, 0.38)`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/radio#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-ripple-color",
+      "description": "Color of the ripple will have when activated. Default: `#000`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/ripple#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-ripple-press-opacity",
+      "description": "Opacity of the ripple when pressed. Default: `0.12`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/ripple#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-ripple-hover-opacity",
+      "description": "Opacity of the ripple when hovered. Default: `0.04`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/ripple#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-ripple-focus-opacity",
+      "description": "Opacity of the ripple when focused. Default: `0.12`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/ripple#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-ripple-selected-opacity",
+      "description": "Opacity of the ripple when the host component is 'selected'. This opacity is added to `press`, `hover`, and `focus` states. Default: `0.08`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/ripple#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-ripple-activated-opacity",
+      "description": "Opacity of the ripple when the host component is 'activated'. This opacity is added to `press`, `hover`, and `focus` states. Default: `0.12`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/ripple#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-theme-error",
+      "description": "Color when errored of the underline ripple, the outline, the caret, the dropdown-icon, and the focused and activatd list items. Default: `#b00020`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/select#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-select-error-color",
+      "description": "Applies where --mdc-theme-error applies. Default: `--mdc-theme-error`                                          ",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/select#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-select-idle-line-color",
+      "description": "Color of the filled select's bottom line when idle. Default: `rgba(0, 0, 0, 0.42)`  ",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/select#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-select-hover-line-color",
+      "description": "Color of the filled select's bottom line when hovering. Default: `rgba(0, 0, 0, 0.87)`  ",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/select#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-select-outlined-idle-border-color",
+      "description": "Color of the outlined select's outline when idle. Default: `rgba(0, 0, 0, 0.38)`  ",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/select#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-select-outlined-hover-border-color",
+      "description": "Color of the outlined select's outline when hovering. Default: `rgba(0, 0, 0, 0.87)`  ",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/select#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-select-outlined-disabled-border-color",
+      "description": "Color of the outlined select's outline when disabled. Default: `rgba(0, 0, 0, 0.16)`  ",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/select#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-select-fill-color",
+      "description": "Color of the select's background fill (non-outlined). Default: `rgb(245, 245, 245)`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/select#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-select-disabled-fill-color",
+      "description": "Color of the select's background fill (non-outlined) when disabled. Default: `rgb(250, 250, 250)`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/select#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-select-ink-color",
+      "description": "Color of the selected text in default and error states. Default: `rgba(0, 0, 0, 0.87)`  ",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/select#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-select-label-ink-color",
+      "description": "Color of the non-focused floating label, helper text, and placeholder. `rgba(0, 0, 0, 0.6)`   ",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/select#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-select-focused-label-color",
+      "description": "Color of the focused floating label, helper text, and placeholder. Default: `--mdc-theme-primary`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/select#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-select-disabled-ink-color",
+      "description": "Color of the input text, the floating label, helper text, and placeholder of a disabled select. Default: `rgba(0, 0, 0, 0.37)`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/select#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-select-dropdown-icon-color",
+      "description": "Color of the dropdown icon when select is not activated. Default: `rgba(0, 0, 0, 0.54)`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/select#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-select-focused-dropdown-icon-color",
+      "description": "Color of the dropdown icon when select is activated. Default: `--mdc-theme-primary`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/select#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-select-disabled-dropdown-icon-color",
+      "description": "Opacity of the dropdown icon when disabled. Default: `rgba(0, 0, 0, 0.38)`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/select#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-select-error-dropdown-icon-color",
+      "description": "Color of the dropdown icon when select is invalid. Default: `--mdc-select-error-color`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/select#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-slider-bg-color-behind-component",
+      "description": "Sets the color of the circle around the knob on the disabled slider to make it seem cut-out. May be necessary when placing a disabled slider on a different-colored background. Default: `white`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/slider#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-snackbar-action-color",
+      "description": "Color of the action button text. `#bb86fc`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/snackbar#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-tab-height",
+      "description": "Height of the tab. Default: `48px`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/tab#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-tab-horizontal-padding",
+      "description": "Horizontal padding on either side of the tab. Default: `24px`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/tab#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-tab-stacked-height",
+      "description": "Height of the tab's stacked variant. Default: `72px`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/tab#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-tab-border-radius",
+      "description": "Tab's border radius (does not clip indicator). Default: `0px`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/tab#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-tab-text-label-color-default",
+      "description": "Color of an unactivated tab label. Default: `rgba(0, 0, 0, 0.6)`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/tab#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-tab-color-default",
+      "description": "Color of an unactivated icon. Default: `rgba(0, 0, 0, 0.54)`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/tab#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-text-area-filled-border-radius",
+      "description": "Border radius of the standard / filled textarea's background filling. Default: `4px 4px 0 0`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/textarea#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-text-area-outlined-idle-border-color",
+      "description": "Color of the outlined textarea's  outline when idle. Default: `rgba(0, 0, 0, 0.38)`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/textarea#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-text-area-outlined-hover-border-color",
+      "description": "Color of the outlined textarea's outline when hovering. Default: `rgba(0, 0, 0, 0.87)`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/textarea#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-text-area-outlined-disabled-border-color",
+      "description": "Color of the outlined textarea's outline when disabled. Default: `rgba(0, 0, 0, 0.06)`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/textarea#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-text-field-filled-border-radius",
+      "description": "Border radius of the standard / filled textfield's background filling. Default: `4px 4px 0 0`        ",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/textfield#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-text-field-idle-line-color",
+      "description": "Color of the filled textfield's bottom line when idle. Default: `rgba(0, 0, 0, 0.42)`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/textfield#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-text-field-hover-line-color",
+      "description": "Color of the filled textfield's bottom line when hovering. Default: `rgba(0, 0, 0, 0.87)`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/textfield#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-text-field-disabled-line-color",
+      "description": "Color of the filled textfield's bottom line when disabled. Default: `rgba(0, 0, 0, 0.06)`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/textfield#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-text-field-outlined-idle-border-color",
+      "description": "Color of the outlined textfield's  outline when idle. Default: `rgba(0, 0, 0, 0.38)`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/textfield#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-text-field-outlined-hover-border-color",
+      "description": "Color of the outlined textfield's outline when hovering. Default: `rgba(0, 0, 0, 0.87)`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/textfield#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-text-field-outlined-disabled-border-color",
+      "description": "Color of the outlined textfield's outline when disabled. Default: `rgba(0, 0, 0, 0.06)`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/textfield#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-text-field-fill-color",
+      "description": "Color of the textfield's background fill (non-outlined). Default: `rgb(245, 245, 245)` ",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/textfield#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-text-field-disabled-fill-color",
+      "description": "Color of the textfield's background fill (non-outlined) when disabled. Default: `rgb(250, 250, 250)` ",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/textfield#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-text-field-ink-color",
+      "description": "Color of the input text. Default: `rgba(0, 0, 0, 0.87)`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/textfield#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-text-field-label-ink-color",
+      "description": "Color of the non-focused floating label, helper text, char counter, and placeholder. Default: `rgba(0, 0, 0, 0.6)`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/textfield#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-text-field-disabled-ink-color",
+      "description": "Color of the input text, the floating label, helper text, char counter, and placeholder of a disabled textfield. Default: `rgba(0, 0, 0, 0.37)`",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/textfield#css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "--mdc-top-app-bar-fixed-box-shadow",
+      "description": "Sets the box shadow of the fixed top app bar when scrolling. Default: mdc elevation 4",
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/material-components/material-components-web-components/tree/master/packages/top-app-bar-fixed#css-custom-properties"
+        }
+      ]
+    }
+  ]
+}

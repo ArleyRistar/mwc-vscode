@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Material Web Components Demo</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons&display=block"
+      rel="stylesheet"
+    />
+    <script type="module" src="index.js"></script>
+    <link href="global.css"" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- For testing purposes only, to make sure that the components are showing the right information -->
+    <mwc-button raised label="raised" icon="code"></mwc-button>
+
+    <mwc-checkbox indeterminate></mwc-checkbox>
+
+    <mwc-dialog open>
+      <div>Discard draft?</div>
+      <mwc-button slot="primaryAction" dialogAction="discard">
+        Discard
+      </mwc-button>
+      <mwc-button slot="secondaryAction" dialogAction="cancel">
+        Cancel
+      </mwc-button>
+    </mwc-dialog>
+
+    <mwc-drawer>
+      <div>
+        <p>Drawer Content!</p>
+      </div>
+      <div slot="appContent">
+        <mwc-top-app-bar>
+          <div slot="title">Title</div>
+        </mwc-top-app-bar>
+        <div>
+          <p>Main Content!</p>
+        </div>
+      </div>
+    </mwc-drawer>
+
+    <mwc-fab icon="edit"></mwc-fab>
+
+    <mwc-formfield label="Tomato">
+      <mwc-checkbox checked></mwc-checkbox>
+    </mwc-formfield>
+
+    <mwc-icon-button-toggle
+      onIcon="sentiment_very_satisfied"
+      offIcon="sentiment_very_dissatisfied"
+    ></mwc-icon-button-toggle>
+
+    <mwc-icon-button icon="code"></mwc-icon-button>
+
+    <mwc-icon>shopping_cart</mwc-icon>
+
+    <mwc-linear-progress indeterminate></mwc-linear-progress>
+
+    <mwc-list>
+      <mwc-list-item>Item 0</mwc-list-item>
+      <mwc-list-item>Item 1</mwc-list-item>
+      <mwc-list-item>Item 2</mwc-list-item>
+      <mwc-list-item>Item 3</mwc-list-item>
+    </mwc-list>
+
+    <div style="position: relative;">
+      <mwc-button id="button" raised label="Open Menu"></mwc-button>
+      <mwc-menu id="menu">
+        <mwc-list-item>Item 0</mwc-list-item>
+        <mwc-list-item>Item 1</mwc-list-item>
+        <mwc-list-item>Item 2</mwc-list-item>
+        <mwc-list-item>Item 3</mwc-list-item>
+      </mwc-menu>
+    </div>
+
+    <mwc-radio name="myGroup" value="value2" checked></mwc-radio>
+
+    <mwc-select label="filled">
+      <mwc-list-item></mwc-list-item>
+      <mwc-list-item value="0">Item 0</mwc-list-item>
+      <mwc-list-item value="1">Item 1</mwc-list-item>
+      <mwc-list-item value="2">Item 2</mwc-list-item>
+      <mwc-list-item value="3">Item 3</mwc-list-item>
+    </mwc-select>
+
+    <mwc-slider value="25" min="10" max="50"></mwc-slider>
+
+    <mwc-snackbar
+      id="photoErrorSnackbar"
+      labelText="Can't send photo. Retry in 5 seconds."
+    >
+    </mwc-snackbar>
+
+    <mwc-switch checked></mwc-switch>
+
+    <mwc-tab-bar>
+      <mwc-tab label="Tab one"></mwc-tab>
+      <mwc-tab label="Tab two"></mwc-tab>
+      <mwc-tab label="Tab three"></mwc-tab>
+    </mwc-tab-bar>
+
+    <mwc-textarea label="My Textarea"></mwc-textarea>
+
+    <mwc-textfield label="My Textfield"></mwc-textfield>
+
+    <mwc-top-app-bar-fixed centerTitle>
+      <mwc-icon-button icon="menu" slot="navigationIcon"></mwc-icon-button>
+      <div slot="title">Title</div>
+      <mwc-icon-button icon="favorite" slot="actionItems"></mwc-icon-button>
+      <div><!-- content --></div>
+    </mwc-top-app-bar-fixed>
+
+    <mwc-top-app-bar centerTitle>
+      <mwc-icon-button icon="menu" slot="navigationIcon"></mwc-icon-button>
+      <div slot="title">Title</div>
+      <mwc-icon-button icon="favorite" slot="actionItems"></mwc-icon-button>
+      <div><!-- content --></div>
+    </mwc-top-app-bar>
+  </body>
+</html>

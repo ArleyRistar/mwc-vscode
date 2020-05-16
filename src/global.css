@@ -1,0 +1,10 @@
+mwc-button {
+  --mdc-theme-primary: #e9437a;
+  --mdc-theme-on-primary: white;
+}
+
+html {
+  --mdc-theme-primary: #25ac14;
+  --mdc-theme-on-primary: rgb(248, 253, 180);
+  --mdc-theme-surface: rgb(244, 253, 245);
+}

@@ -1,0 +1,8 @@
+tmp/
+.vscode/
+*.vsix
+.gitignore
+
+src/
+!src/mwc.css-data.json
+!src/mwc.html-data.json

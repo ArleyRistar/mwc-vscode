@@ -1,0 +1,8 @@
+{
+    "html.customData": [
+        "src/mwc.html-data.json"
+    ],
+    "css.customData": [
+        "src/mwc.css-data.json"
+    ]
+}

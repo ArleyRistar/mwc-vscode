@@ -1,0 +1,1347 @@
+{
+  "version": 1,
+  "tags": [
+    {
+      "name": "mwc-button",
+      "description": "Attributes:\n\n  * `raised` {`boolean`} - \n\n  * `unelevated` {`boolean`} - \n\n  * `outlined` {`boolean`} - \n\n  * `dense` {`boolean`} - \n\n  * `disabled` {`boolean`} - \n\n  * `trailingicon` {`boolean`} - \n\n  * `fullwidth` {`boolean`} - \n\n  * `icon` {`string`} - \n\n  * `label` {`string`} - \n\nProperties:\n\n  * `raised` {`boolean`} - \n\n  * `unelevated` {`boolean`} - \n\n  * `outlined` {`boolean`} - \n\n  * `dense` {`boolean`} - \n\n  * `disabled` {`boolean`} - \n\n  * `trailingIcon` {`boolean`} - \n\n  * `fullwidth` {`boolean`} - \n\n  * `icon` {`string`} - \n\n  * `label` {`string`} - \n\n  * `buttonElement` {`HTMLElement`} - \n\n  * `shouldRenderRipple` {`boolean`} - \n\n  * `rippleHandlers` {`RippleHandlers`} - \n\n  * `ripple` {`Promise<Ripple | null>`} - \n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`} - \n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`} - ",
+      "attributes": [
+        {
+          "name": "raised",
+          "description": "`raised` {`boolean`} - \n\nProperty: raised\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "unelevated",
+          "description": "`unelevated` {`boolean`} - \n\nProperty: unelevated\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "outlined",
+          "description": "`outlined` {`boolean`} - \n\nProperty: outlined\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "dense",
+          "description": "`dense` {`boolean`} - \n\nProperty: dense\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "disabled",
+          "description": "`disabled` {`boolean`} - \n\nProperty: disabled\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "trailingicon",
+          "description": "`trailingicon` {`boolean`} - \n\nProperty: trailingIcon\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "fullwidth",
+          "description": "`fullwidth` {`boolean`} - \n\nProperty: fullwidth\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "icon",
+          "description": "`icon` {`string`} - \n\nProperty: icon\n\nDefault: "
+        },
+        {
+          "name": "label",
+          "description": "`label` {`string`} - \n\nProperty: label\n\nDefault: "
+        }
+      ]
+    },
+    {
+      "name": "mwc-check-list-item",
+      "description": "Events:\n\n  * `request-selected` - {RequestSelectedDetail}\n\n  * `list-item-rendered` - \n\nAttributes:\n\n  * `left` {`boolean`} - \n\n  * `value` {`string`} - \n\n  * `group` {`string | null`} - \n\n  * `tabindex` {`number`} - \n\n  * `disabled` {`boolean`} - \n\n  * `twoline` {`boolean`} - \n\n  * `activated` {`boolean`} - \n\n  * `graphic` {`GraphicType`} - \n\n  * `hasMeta` {`boolean`} - \n\n  * `noninteractive` {`boolean`} - \n\n  * `selected` {`boolean`} - \n\nProperties:\n\n  * `checkboxElement` {`Checkbox`} - \n\n  * `left` {`boolean`} - \n\n  * `slotElement` {`HTMLSlotElement | null`} - \n\n  * `value` {`string`} - \n\n  * `group` {`string | null`} - \n\n  * `tabindex` {`number`} - \n\n  * `disabled` {`boolean`} - \n\n  * `twoline` {`boolean`} - \n\n  * `activated` {`boolean`} - \n\n  * `graphic` {`GraphicType`} - \n\n  * `hasMeta` {`boolean`} - \n\n  * `noninteractive` {`boolean`} - \n\n  * `selected` {`boolean`} - \n\n  * `shouldRenderRipple` {`boolean`} - \n\n  * `boundOnClick` - \n\n  * `_firstChanged` {`boolean`} - \n\n  * `_skipPropRequest` {`boolean`} - \n\n  * `rippleHandlers` {`RippleHandlers`} - \n\n  * `listeners` {`{ target: Element; eventNames: string[]; cb: EventListenerOrEventListenerObject; }[]`} - \n\n  * `text` {`string`} - \n\n  * `ripple` {`Promise<Ripple | null>`} - \n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`} - \n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`} - ",
+      "attributes": [
+        {
+          "name": "left",
+          "description": "`left` {`boolean`} - \n\nProperty: left\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "value",
+          "description": "`value` {`string`} - \n\nProperty: value\n\nDefault: "
+        },
+        {
+          "name": "group",
+          "description": "`group` {`string | null`} - \n\nProperty: group\n\nDefault: null",
+          "values": []
+        },
+        {
+          "name": "tabindex",
+          "description": "`tabindex` {`number`} - \n\nProperty: tabindex\n\nDefault: -1"
+        },
+        {
+          "name": "disabled",
+          "description": "`disabled` {`boolean`} - \n\nProperty: disabled\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "twoline",
+          "description": "`twoline` {`boolean`} - \n\nProperty: twoline\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "activated",
+          "description": "`activated` {`boolean`} - \n\nProperty: activated\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "graphic",
+          "description": "`graphic` {`GraphicType`} - \n\nProperty: graphic\n\nDefault: control"
+        },
+        {
+          "name": "hasMeta",
+          "description": "`hasMeta` {`boolean`} - \n\nProperty: hasMeta\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "noninteractive",
+          "description": "`noninteractive` {`boolean`} - \n\nProperty: noninteractive\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "selected",
+          "description": "`selected` {`boolean`} - \n\nProperty: selected\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "onrequest-selected",
+          "description": "`request-selected` - {RequestSelectedDetail}"
+        },
+        {
+          "name": "onlist-item-rendered",
+          "description": "`list-item-rendered` - "
+        }
+      ]
+    },
+    {
+      "name": "mwc-checkbox",
+      "description": "Attributes:\n\n  * `checked` {`boolean`} - \n\n  * `indeterminate` {`boolean`} - \n\n  * `disabled` {`boolean`} - \n\n  * `value` {`string`} - \n\nProperties:\n\n  * `checked` {`boolean`} - \n\n  * `indeterminate` {`boolean`} - \n\n  * `disabled` {`boolean`} - \n\n  * `value` {`string`} - \n\n  * `animationClass` {`string`} - \n\n  * `shouldRenderRipple` {`boolean`} - \n\n  * `rippleElement` {`Ripple | null`} - \n\n  * `rippleHandlers` {`RippleHandlers`} - \n\n  * `isRippleActive` {`boolean`} - \n\n  * `formElement` {`HTMLInputElement`} - Form-capable element in the component ShadowRoot.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`undefined`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`undefined`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`Promise<Ripple | null>`} - Implement ripple getter for Ripple integration with mwc-formfield\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`} - \n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`} - ",
+      "attributes": [
+        {
+          "name": "checked",
+          "description": "`checked` {`boolean`} - \n\nProperty: checked\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "indeterminate",
+          "description": "`indeterminate` {`boolean`} - \n\nProperty: indeterminate\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "disabled",
+          "description": "`disabled` {`boolean`} - \n\nProperty: disabled\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "value",
+          "description": "`value` {`string`} - \n\nProperty: value\n\nDefault: "
+        }
+      ]
+    },
+    {
+      "name": "mwc-dialog",
+      "description": "Attributes:\n\n  * `hideActions` {`boolean`} - \n\n  * `stacked` {`boolean`} - \n\n  * `heading` {`string`} - \n\n  * `scrimClickAction` {`string`} - \n\n  * `escapeKeyAction` {`string`} - \n\n  * `open` {`boolean`} - \n\n  * `defaultAction` {`string`} - \n\n  * `actionAttribute` {`string`} - \n\n  * `initialFocusAttribute` {`string`} - \n\nProperties:\n\n  * `primarySlot` {`HTMLElement`} - \n\n  * `secondarySlot` {`HTMLElement`} - \n\n  * `contentSlot` {`HTMLElement`} - \n\n  * `contentElement` {`HTMLDivElement`} - \n\n  * `conatinerElement` {`HTMLDivElement`} - \n\n  * `hideActions` {`boolean`} - \n\n  * `stacked` {`boolean`} - \n\n  * `heading` {`string`} - \n\n  * `scrimClickAction` {`string`} - \n\n  * `escapeKeyAction` {`string`} - \n\n  * `open` {`boolean`} - \n\n  * `defaultAction` {`string`} - \n\n  * `actionAttribute` {`string`} - \n\n  * `initialFocusAttribute` {`string`} - \n\n  * `closingDueToDisconnect` {`boolean | undefined`} - \n\n  * `primaryButton` {`HTMLElement | null`} - \n\n  * `currentAction` {`string | undefined`} - \n\n  * `boundLayout` {`(() => void) | null`} - \n\n  * `boundHandleClick` {`((ev: MouseEvent) => void) | null`} - \n\n  * `boundHandleKeydown` {`((ev: KeyboardEvent) => void) | null`} - \n\n  * `boundHandleDocumentKeydown` {`((ev: KeyboardEvent) => void) | null`} - \n\n  * `mdcRoot` {`HTMLDivElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCDialogFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCDialogFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`unknown`} - \n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`} - \n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`} - ",
+      "attributes": [
+        {
+          "name": "hideActions",
+          "description": "`hideActions` {`boolean`} - \n\nProperty: hideActions\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "stacked",
+          "description": "`stacked` {`boolean`} - \n\nProperty: stacked\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "heading",
+          "description": "`heading` {`string`} - \n\nProperty: heading\n\nDefault: "
+        },
+        {
+          "name": "scrimClickAction",
+          "description": "`scrimClickAction` {`string`} - \n\nProperty: scrimClickAction\n\nDefault: close"
+        },
+        {
+          "name": "escapeKeyAction",
+          "description": "`escapeKeyAction` {`string`} - \n\nProperty: escapeKeyAction\n\nDefault: close"
+        },
+        {
+          "name": "open",
+          "description": "`open` {`boolean`} - \n\nProperty: open\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "defaultAction",
+          "description": "`defaultAction` {`string`} - \n\nProperty: defaultAction\n\nDefault: close"
+        },
+        {
+          "name": "actionAttribute",
+          "description": "`actionAttribute` {`string`} - \n\nProperty: actionAttribute\n\nDefault: dialogAction"
+        },
+        {
+          "name": "initialFocusAttribute",
+          "description": "`initialFocusAttribute` {`string`} - \n\nProperty: initialFocusAttribute\n\nDefault: dialogInitialFocus"
+        }
+      ]
+    },
+    {
+      "name": "mwc-drawer",
+      "description": "Attributes:\n\n  * `open` {`boolean`} - \n\n  * `hasHeader` {`boolean`} - \n\n  * `type` {`string`} - \n\nProperties:\n\n  * `appContent` {`InertableHTMLElement`} - \n\n  * `_previousFocus` {`HTMLElement | null`} - \n\n  * `open` {`boolean`} - \n\n  * `hasHeader` {`boolean`} - \n\n  * `type` {`string`} - \n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCDismissibleDrawerFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCDismissibleDrawerFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`unknown`} - \n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`} - \n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`} - ",
+      "attributes": [
+        {
+          "name": "open",
+          "description": "`open` {`boolean`} - \n\nProperty: open\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "hasHeader",
+          "description": "`hasHeader` {`boolean`} - \n\nProperty: hasHeader\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "type",
+          "description": "`type` {`string`} - \n\nProperty: type\n\nDefault: "
+        }
+      ]
+    },
+    {
+      "name": "mwc-fab",
+      "description": "Attributes:\n\n  * `mini` {`boolean`} - \n\n  * `exited` {`boolean`} - \n\n  * `disabled` {`boolean`} - \n\n  * `extended` {`boolean`} - \n\n  * `showIconAtEnd` {`boolean`} - \n\n  * `icon` {`string`} - \n\n  * `label` {`string`} - \n\nProperties:\n\n  * `mini` {`boolean`} - \n\n  * `exited` {`boolean`} - \n\n  * `disabled` {`boolean`} - \n\n  * `extended` {`boolean`} - \n\n  * `showIconAtEnd` {`boolean`} - \n\n  * `icon` {`string`} - \n\n  * `label` {`string`} - \n\n  * `ripple` {`unknown`} - \n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`} - \n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`} - ",
+      "attributes": [
+        {
+          "name": "mini",
+          "description": "`mini` {`boolean`} - \n\nProperty: mini\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "exited",
+          "description": "`exited` {`boolean`} - \n\nProperty: exited\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "disabled",
+          "description": "`disabled` {`boolean`} - \n\nProperty: disabled\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "extended",
+          "description": "`extended` {`boolean`} - \n\nProperty: extended\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "showIconAtEnd",
+          "description": "`showIconAtEnd` {`boolean`} - \n\nProperty: showIconAtEnd\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "icon",
+          "description": "`icon` {`string`} - \n\nProperty: icon\n\nDefault: "
+        },
+        {
+          "name": "label",
+          "description": "`label` {`string`} - \n\nProperty: label\n\nDefault: "
+        }
+      ]
+    },
+    {
+      "name": "mwc-formfield",
+      "description": "Attributes:\n\n  * `alignEnd` {`boolean`} - \n\n  * `spaceBetween` {`boolean`} - \n\n  * `nowrap` {`boolean`} - \n\n  * `label` {`string`} - \n\nProperties:\n\n  * `alignEnd` {`boolean`} - \n\n  * `spaceBetween` {`boolean`} - \n\n  * `nowrap` {`boolean`} - \n\n  * `label` {`string`} - \n\n  * `slotEl` {`HTMLElement`} - \n\n  * `labelEl` {`HTMLLabelElement`} - \n\n  * `input` {`HTMLElement | null`} - \n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCFormFieldFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCFormFieldFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`unknown`} - \n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`} - \n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`} - ",
+      "attributes": [
+        {
+          "name": "alignEnd",
+          "description": "`alignEnd` {`boolean`} - \n\nProperty: alignEnd\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "spaceBetween",
+          "description": "`spaceBetween` {`boolean`} - \n\nProperty: spaceBetween\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "nowrap",
+          "description": "`nowrap` {`boolean`} - \n\nProperty: nowrap\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "label",
+          "description": "`label` {`string`} - \n\nProperty: label\n\nDefault: "
+        }
+      ]
+    },
+    {
+      "name": "mwc-icon-button-toggle",
+      "description": "Events:\n\n  * `MDCIconButtonToggle:change` - \n\nAttributes:\n\n  * `label` {`string`} - \n\n  * `disabled` {`boolean`} - \n\n  * `onIcon` {`string`} - \n\n  * `offIcon` {`string`} - \n\n  * `on` {`boolean`} - \n\nProperties:\n\n  * `label` {`string`} - \n\n  * `disabled` {`boolean`} - \n\n  * `onIcon` {`string`} - \n\n  * `offIcon` {`string`} - \n\n  * `on` {`boolean`} - \n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCIconButtonToggleFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCIconButtonToggleFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`unknown`} - \n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`} - \n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`} - ",
+      "attributes": [
+        {
+          "name": "label",
+          "description": "`label` {`string`} - \n\nProperty: label\n\nDefault: "
+        },
+        {
+          "name": "disabled",
+          "description": "`disabled` {`boolean`} - \n\nProperty: disabled\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "onIcon",
+          "description": "`onIcon` {`string`} - \n\nProperty: onIcon\n\nDefault: "
+        },
+        {
+          "name": "offIcon",
+          "description": "`offIcon` {`string`} - \n\nProperty: offIcon\n\nDefault: "
+        },
+        {
+          "name": "on",
+          "description": "`on` {`boolean`} - \n\nProperty: on\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "onMDCIconButtonToggle:change",
+          "description": "`MDCIconButtonToggle:change` - "
+        }
+      ]
+    },
+    {
+      "name": "mwc-icon-button",
+      "description": "Attributes:\n\n  * `disabled` {`boolean`} - \n\n  * `icon` {`string`} - \n\n  * `label` {`string`} - \n\nProperties:\n\n  * `disabled` {`boolean`} - \n\n  * `icon` {`string`} - \n\n  * `label` {`string`} - \n\n  * `ripple` {`unknown`} - \n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`} - \n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`} - ",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "`disabled` {`boolean`} - \n\nProperty: disabled\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "icon",
+          "description": "`icon` {`string`} - \n\nProperty: icon\n\nDefault: "
+        },
+        {
+          "name": "label",
+          "description": "`label` {`string`} - \n\nProperty: label\n\nDefault: "
+        }
+      ]
+    },
+    {
+      "name": "mwc-icon",
+      "description": "Properties:\n\n  * `ripple` {`unknown`} - \n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`} - \n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`} - ",
+      "attributes": []
+    },
+    {
+      "name": "mwc-linear-progress",
+      "description": "Attributes:\n\n  * `indeterminate` {`boolean`} - \n\n  * `progress` {`number`} - \n\n  * `buffer` {`number`} - \n\n  * `reverse` {`boolean`} - \n\n  * `closed` {`boolean`} - \n\n  * `ariaLabel` {`string`} - \n\nProperties:\n\n  * `primaryBar` {`HTMLElement`} - \n\n  * `bufferElement` {`HTMLElement`} - \n\n  * `indeterminate` {`boolean`} - \n\n  * `progress` {`number`} - \n\n  * `buffer` {`number`} - \n\n  * `reverse` {`boolean`} - \n\n  * `closed` {`boolean`} - \n\n  * `ariaLabel` {`string`} - \n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCLinearProgressFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCLinearProgressFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`unknown`} - \n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`} - \n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`} - ",
+      "attributes": [
+        {
+          "name": "indeterminate",
+          "description": "`indeterminate` {`boolean`} - \n\nProperty: indeterminate\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "progress",
+          "description": "`progress` {`number`} - \n\nProperty: progress\n\nDefault: 0"
+        },
+        {
+          "name": "buffer",
+          "description": "`buffer` {`number`} - \n\nProperty: buffer\n\nDefault: 1"
+        },
+        {
+          "name": "reverse",
+          "description": "`reverse` {`boolean`} - \n\nProperty: reverse\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "closed",
+          "description": "`closed` {`boolean`} - \n\nProperty: closed\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "ariaLabel",
+          "description": "`ariaLabel` {`string`} - \n\nProperty: ariaLabel\n\nDefault: "
+        }
+      ]
+    },
+    {
+      "name": "mwc-list-item",
+      "description": "Events:\n\n  * `request-selected` - {RequestSelectedDetail}\n\n  * `list-item-rendered` - \n\nAttributes:\n\n  * `value` {`string`} - \n\n  * `group` {`string | null`} - \n\n  * `tabindex` {`number`} - \n\n  * `disabled` {`boolean`} - \n\n  * `twoline` {`boolean`} - \n\n  * `activated` {`boolean`} - \n\n  * `graphic` {`GraphicType`} - \n\n  * `hasMeta` {`boolean`} - \n\n  * `noninteractive` {`boolean`} - \n\n  * `selected` {`boolean`} - \n\nProperties:\n\n  * `slotElement` {`HTMLSlotElement | null`} - \n\n  * `value` {`string`} - \n\n  * `group` {`string | null`} - \n\n  * `tabindex` {`number`} - \n\n  * `disabled` {`boolean`} - \n\n  * `twoline` {`boolean`} - \n\n  * `activated` {`boolean`} - \n\n  * `graphic` {`GraphicType`} - \n\n  * `hasMeta` {`boolean`} - \n\n  * `noninteractive` {`boolean`} - \n\n  * `selected` {`boolean`} - \n\n  * `shouldRenderRipple` {`boolean`} - \n\n  * `boundOnClick` - \n\n  * `_firstChanged` {`boolean`} - \n\n  * `_skipPropRequest` {`boolean`} - \n\n  * `rippleHandlers` {`RippleHandlers`} - \n\n  * `listeners` {`{ target: Element; eventNames: string[]; cb: EventListenerOrEventListenerObject; }[]`} - \n\n  * `text` {`string`} - \n\n  * `ripple` {`Promise<Ripple | null>`} - \n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`} - \n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`} - ",
+      "attributes": [
+        {
+          "name": "value",
+          "description": "`value` {`string`} - \n\nProperty: value\n\nDefault: "
+        },
+        {
+          "name": "group",
+          "description": "`group` {`string | null`} - \n\nProperty: group\n\nDefault: null",
+          "values": []
+        },
+        {
+          "name": "tabindex",
+          "description": "`tabindex` {`number`} - \n\nProperty: tabindex\n\nDefault: -1"
+        },
+        {
+          "name": "disabled",
+          "description": "`disabled` {`boolean`} - \n\nProperty: disabled\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "twoline",
+          "description": "`twoline` {`boolean`} - \n\nProperty: twoline\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "activated",
+          "description": "`activated` {`boolean`} - \n\nProperty: activated\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "graphic",
+          "description": "`graphic` {`GraphicType`} - \n\nProperty: graphic\n\nDefault: null"
+        },
+        {
+          "name": "hasMeta",
+          "description": "`hasMeta` {`boolean`} - \n\nProperty: hasMeta\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "noninteractive",
+          "description": "`noninteractive` {`boolean`} - \n\nProperty: noninteractive\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "selected",
+          "description": "`selected` {`boolean`} - \n\nProperty: selected\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "onrequest-selected",
+          "description": "`request-selected` - {RequestSelectedDetail}"
+        },
+        {
+          "name": "onlist-item-rendered",
+          "description": "`list-item-rendered` - "
+        }
+      ]
+    },
+    {
+      "name": "mwc-list",
+      "description": "Events:\n\n  * `selected` - {SelectedDetail}\n\n  * `action` - {ActionDetail}\n\nAttributes:\n\n  * `activatable` {`boolean`} - \n\n  * `multi` {`boolean`} - \n\n  * `wrapFocus` {`boolean`} - \n\n  * `itemRoles` {`string | null`} - \n\n  * `innerRole` {`string | null`} - \n\n  * `innerAriaLabel` {`string | null`} - \n\n  * `rootTabbable` {`boolean`} - \n\n  * `noninteractive` {`boolean`} - \n\nProperties:\n\n  * `mdcAdapter` {`MDCListAdapter | null`} - \n\n  * `slotElement` {`HTMLSlotElement | null`} - \n\n  * `activatable` {`boolean`} - \n\n  * `multi` {`boolean`} - \n\n  * `wrapFocus` {`boolean`} - \n\n  * `itemRoles` {`string | null`} - \n\n  * `innerRole` {`string | null`} - \n\n  * `innerAriaLabel` {`string | null`} - \n\n  * `rootTabbable` {`boolean`} - \n\n  * `previousTabindex` {`Element | null`} - \n\n  * `noninteractive` {`boolean`} - \n\n  * `assignedElements` {`Element[]`} - \n\n  * `items_` {`ListItemBase[]`} - \n\n  * `items` {`ListItemBase[]`} - \n\n  * `selected` {`ListItemBase | ListItemBase[] | null`} - \n\n  * `index` {`MWCListIndex`} - \n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCListFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCListFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`unknown`} - \n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`} - \n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`} - ",
+      "attributes": [
+        {
+          "name": "activatable",
+          "description": "`activatable` {`boolean`} - \n\nProperty: activatable\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "multi",
+          "description": "`multi` {`boolean`} - \n\nProperty: multi\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "wrapFocus",
+          "description": "`wrapFocus` {`boolean`} - \n\nProperty: wrapFocus\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "itemRoles",
+          "description": "`itemRoles` {`string | null`} - \n\nProperty: itemRoles\n\nDefault: null",
+          "values": []
+        },
+        {
+          "name": "innerRole",
+          "description": "`innerRole` {`string | null`} - \n\nProperty: innerRole\n\nDefault: null",
+          "values": []
+        },
+        {
+          "name": "innerAriaLabel",
+          "description": "`innerAriaLabel` {`string | null`} - \n\nProperty: innerAriaLabel\n\nDefault: null",
+          "values": []
+        },
+        {
+          "name": "rootTabbable",
+          "description": "`rootTabbable` {`boolean`} - \n\nProperty: rootTabbable\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "noninteractive",
+          "description": "`noninteractive` {`boolean`} - \n\nProperty: noninteractive\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "onselected",
+          "description": "`selected` - {SelectedDetail}"
+        },
+        {
+          "name": "onaction",
+          "description": "`action` - {ActionDetail}"
+        }
+      ]
+    },
+    {
+      "name": "mwc-menu-surface",
+      "description": "Events:\n\n  * `opened` - \n\n  * `closed` - \n\nAttributes:\n\n  * `absolute` {`boolean`} - \n\n  * `fullwidth` {`boolean`} - \n\n  * `fixed` {`boolean`} - \n\n  * `x` {`number | null`} - \n\n  * `y` {`number | null`} - \n\n  * `quick` {`boolean`} - \n\n  * `open` {`boolean`} - \n\n  * `corner` {`\"TOP_LEFT\" | \"TOP_RIGHT\" | \"BOTTOM_LEFT\" | \"BOTTOM_RIGHT\" | \"TOP_START\" | \"TOP_END\" | \"BOTTOM_START\" | \"BOTTOM_END\"`} - \n\nProperties:\n\n  * `slotElement` {`HTMLSlotElement | null`} - \n\n  * `absolute` {`boolean`} - \n\n  * `fullwidth` {`boolean`} - \n\n  * `fixed` {`boolean`} - \n\n  * `x` {`number | null`} - \n\n  * `y` {`number | null`} - \n\n  * `quick` {`boolean`} - \n\n  * `open` {`boolean`} - \n\n  * `corner` {`\"TOP_LEFT\" | \"TOP_RIGHT\" | \"BOTTOM_LEFT\" | \"BOTTOM_RIGHT\" | \"TOP_START\" | \"TOP_END\" | \"BOTTOM_START\" | \"BOTTOM_END\"`} - \n\n  * `anchor` {`HTMLElement | null`} - \n\n  * `previouslyFocused` {`HTMLElement | Element | null`} - \n\n  * `previousAnchor` {`HTMLElement | null`} - \n\n  * `onBodyClickBound` {`(evt: MouseEvent) => void`} - \n\n  * `mdcRoot` {`HTMLDivElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCMenuSurfaceFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCMenuSurfaceFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`unknown`} - \n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`} - \n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`} - ",
+      "attributes": [
+        {
+          "name": "absolute",
+          "description": "`absolute` {`boolean`} - \n\nProperty: absolute\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "fullwidth",
+          "description": "`fullwidth` {`boolean`} - \n\nProperty: fullwidth\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "fixed",
+          "description": "`fixed` {`boolean`} - \n\nProperty: fixed\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "x",
+          "description": "`x` {`number | null`} - \n\nProperty: x\n\nDefault: null",
+          "values": []
+        },
+        {
+          "name": "y",
+          "description": "`y` {`number | null`} - \n\nProperty: y\n\nDefault: null",
+          "values": []
+        },
+        {
+          "name": "quick",
+          "description": "`quick` {`boolean`} - \n\nProperty: quick\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "open",
+          "description": "`open` {`boolean`} - \n\nProperty: open\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "corner",
+          "description": "`corner` {`\"TOP_LEFT\" | \"TOP_RIGHT\" | \"BOTTOM_LEFT\" | \"BOTTOM_RIGHT\" | \"TOP_START\" | \"TOP_END\" | \"BOTTOM_START\" | \"BOTTOM_END\"`} - \n\nProperty: corner\n\nDefault: TOP_START",
+          "values": [
+            {
+              "name": "TOP_LEFT"
+            },
+            {
+              "name": "TOP_RIGHT"
+            },
+            {
+              "name": "BOTTOM_LEFT"
+            },
+            {
+              "name": "BOTTOM_RIGHT"
+            },
+            {
+              "name": "TOP_START"
+            },
+            {
+              "name": "TOP_END"
+            },
+            {
+              "name": "BOTTOM_START"
+            },
+            {
+              "name": "BOTTOM_END"
+            }
+          ]
+        },
+        {
+          "name": "onopened",
+          "description": "`opened` - "
+        },
+        {
+          "name": "onclosed",
+          "description": "`closed` - "
+        }
+      ]
+    },
+    {
+      "name": "mwc-menu",
+      "description": "Events:\n\n  * `selected` - {SelectedDetail}\n\n  * `action` - {ActionDetail}\n\n  * `opened` - \n\n  * `closed` - \n\nAttributes:\n\n  * `anchor` {`HTMLElement | null`} - \n\n  * `open` {`boolean`} - \n\n  * `quick` {`boolean`} - \n\n  * `wrapFocus` {`boolean`} - \n\n  * `innerRole` {`\"menu\" | \"listbox\"`} - \n\n  * `corner` {`\"TOP_LEFT\" | \"TOP_RIGHT\" | \"BOTTOM_LEFT\" | \"BOTTOM_RIGHT\" | \"TOP_START\" | \"TOP_END\" | \"BOTTOM_START\" | \"BOTTOM_END\"`} - \n\n  * `x` {`number | null`} - \n\n  * `y` {`number | null`} - \n\n  * `absolute` {`boolean`} - \n\n  * `multi` {`boolean`} - \n\n  * `activatable` {`boolean`} - \n\n  * `fixed` {`boolean`} - \n\n  * `forceGroupSelection` {`boolean`} - \n\n  * `fullwidth` {`boolean`} - \n\n  * `defaultFocus` {`\"NONE\" | \"LIST_ROOT\" | \"FIRST_ITEM\" | \"LAST_ITEM\"`} - \n\nProperties:\n\n  * `listElement_` {`List | null`} - \n\n  * `slotElement` {`HTMLSlotElement | null`} - \n\n  * `anchor` {`HTMLElement | null`} - \n\n  * `open` {`boolean`} - \n\n  * `quick` {`boolean`} - \n\n  * `wrapFocus` {`boolean`} - \n\n  * `innerRole` {`\"menu\" | \"listbox\"`} - \n\n  * `corner` {`\"TOP_LEFT\" | \"TOP_RIGHT\" | \"BOTTOM_LEFT\" | \"BOTTOM_RIGHT\" | \"TOP_START\" | \"TOP_END\" | \"BOTTOM_START\" | \"BOTTOM_END\"`} - \n\n  * `x` {`number | null`} - \n\n  * `y` {`number | null`} - \n\n  * `absolute` {`boolean`} - \n\n  * `multi` {`boolean`} - \n\n  * `activatable` {`boolean`} - \n\n  * `fixed` {`boolean`} - \n\n  * `forceGroupSelection` {`boolean`} - \n\n  * `fullwidth` {`boolean`} - \n\n  * `defaultFocus` {`\"NONE\" | \"LIST_ROOT\" | \"FIRST_ITEM\" | \"LAST_ITEM\"`} - \n\n  * `_listUpdateComplete` {`Promise<unknown> | null`} - \n\n  * `listElement` {`List | null`} - \n\n  * `items` {`ListItemBase[]`} - \n\n  * `index` {`MWCListIndex`} - \n\n  * `selected` {`ListItemBase | ListItemBase[] | null`} - \n\n  * `mdcRoot` {`MenuSurface`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCMenuFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCMenuFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`unknown`} - \n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`} - \n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`} - ",
+      "attributes": [
+        {
+          "name": "anchor",
+          "description": "`anchor` {`HTMLElement | null`} - \n\nProperty: anchor\n\nDefault: null",
+          "values": []
+        },
+        {
+          "name": "open",
+          "description": "`open` {`boolean`} - \n\nProperty: open\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "quick",
+          "description": "`quick` {`boolean`} - \n\nProperty: quick\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "wrapFocus",
+          "description": "`wrapFocus` {`boolean`} - \n\nProperty: wrapFocus\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "innerRole",
+          "description": "`innerRole` {`\"menu\" | \"listbox\"`} - \n\nProperty: innerRole\n\nDefault: menu",
+          "values": [
+            {
+              "name": "menu"
+            },
+            {
+              "name": "listbox"
+            }
+          ]
+        },
+        {
+          "name": "corner",
+          "description": "`corner` {`\"TOP_LEFT\" | \"TOP_RIGHT\" | \"BOTTOM_LEFT\" | \"BOTTOM_RIGHT\" | \"TOP_START\" | \"TOP_END\" | \"BOTTOM_START\" | \"BOTTOM_END\"`} - \n\nProperty: corner\n\nDefault: TOP_START",
+          "values": [
+            {
+              "name": "TOP_LEFT"
+            },
+            {
+              "name": "TOP_RIGHT"
+            },
+            {
+              "name": "BOTTOM_LEFT"
+            },
+            {
+              "name": "BOTTOM_RIGHT"
+            },
+            {
+              "name": "TOP_START"
+            },
+            {
+              "name": "TOP_END"
+            },
+            {
+              "name": "BOTTOM_START"
+            },
+            {
+              "name": "BOTTOM_END"
+            }
+          ]
+        },
+        {
+          "name": "x",
+          "description": "`x` {`number | null`} - \n\nProperty: x\n\nDefault: null",
+          "values": []
+        },
+        {
+          "name": "y",
+          "description": "`y` {`number | null`} - \n\nProperty: y\n\nDefault: null",
+          "values": []
+        },
+        {
+          "name": "absolute",
+          "description": "`absolute` {`boolean`} - \n\nProperty: absolute\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "multi",
+          "description": "`multi` {`boolean`} - \n\nProperty: multi\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "activatable",
+          "description": "`activatable` {`boolean`} - \n\nProperty: activatable\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "fixed",
+          "description": "`fixed` {`boolean`} - \n\nProperty: fixed\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "forceGroupSelection",
+          "description": "`forceGroupSelection` {`boolean`} - \n\nProperty: forceGroupSelection\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "fullwidth",
+          "description": "`fullwidth` {`boolean`} - \n\nProperty: fullwidth\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "defaultFocus",
+          "description": "`defaultFocus` {`\"NONE\" | \"LIST_ROOT\" | \"FIRST_ITEM\" | \"LAST_ITEM\"`} - \n\nProperty: defaultFocus\n\nDefault: LIST_ROOT",
+          "values": [
+            {
+              "name": "NONE"
+            },
+            {
+              "name": "LIST_ROOT"
+            },
+            {
+              "name": "FIRST_ITEM"
+            },
+            {
+              "name": "LAST_ITEM"
+            }
+          ]
+        },
+        {
+          "name": "onselected",
+          "description": "`selected` - {SelectedDetail}"
+        },
+        {
+          "name": "onaction",
+          "description": "`action` - {ActionDetail}"
+        },
+        {
+          "name": "onopened",
+          "description": "`opened` - "
+        },
+        {
+          "name": "onclosed",
+          "description": "`closed` - "
+        }
+      ]
+    },
+    {
+      "name": "mwc-notched-outline",
+      "description": "Attributes:\n\n  * `width` {`number`} - \n\n  * `open` {`boolean`} - \n\nProperties:\n\n  * `width` {`number`} - \n\n  * `open` {`boolean`} - \n\n  * `lastOpen` {`boolean`} - \n\n  * `notchElement` {`HTMLDivElement`} - \n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCNotchedOutlineFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCNotchedOutlineFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`unknown`} - \n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`} - \n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`} - ",
+      "attributes": [
+        {
+          "name": "width",
+          "description": "`width` {`number`} - \n\nProperty: width\n\nDefault: 0"
+        },
+        {
+          "name": "open",
+          "description": "`open` {`boolean`} - \n\nProperty: open\n\nDefault: false",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "mwc-radio-list-item",
+      "description": "Events:\n\n  * `request-selected` - {RequestSelectedDetail}\n\n  * `list-item-rendered` - \n\nAttributes:\n\n  * `left` {`boolean`} - \n\n  * `value` {`string`} - \n\n  * `group` {`string | null`} - \n\n  * `tabindex` {`number`} - \n\n  * `disabled` {`boolean`} - \n\n  * `twoline` {`boolean`} - \n\n  * `activated` {`boolean`} - \n\n  * `graphic` {`GraphicType`} - \n\n  * `hasMeta` {`boolean`} - \n\n  * `noninteractive` {`boolean`} - \n\n  * `selected` {`boolean`} - \n\nProperties:\n\n  * `radioElement` {`Radio`} - \n\n  * `left` {`boolean`} - \n\n  * `_changeFromClick` {`boolean`} - \n\n  * `slotElement` {`HTMLSlotElement | null`} - \n\n  * `value` {`string`} - \n\n  * `group` {`string | null`} - \n\n  * `tabindex` {`number`} - \n\n  * `disabled` {`boolean`} - \n\n  * `twoline` {`boolean`} - \n\n  * `activated` {`boolean`} - \n\n  * `graphic` {`GraphicType`} - \n\n  * `hasMeta` {`boolean`} - \n\n  * `noninteractive` {`boolean`} - \n\n  * `selected` {`boolean`} - \n\n  * `shouldRenderRipple` {`boolean`} - \n\n  * `boundOnClick` - \n\n  * `_firstChanged` {`boolean`} - \n\n  * `_skipPropRequest` {`boolean`} - \n\n  * `rippleHandlers` {`RippleHandlers`} - \n\n  * `listeners` {`{ target: Element; eventNames: string[]; cb: EventListenerOrEventListenerObject; }[]`} - \n\n  * `text` {`string`} - \n\n  * `ripple` {`Promise<Ripple | null>`} - \n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`} - \n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`} - ",
+      "attributes": [
+        {
+          "name": "left",
+          "description": "`left` {`boolean`} - \n\nProperty: left\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "value",
+          "description": "`value` {`string`} - \n\nProperty: value\n\nDefault: "
+        },
+        {
+          "name": "group",
+          "description": "`group` {`string | null`} - \n\nProperty: group\n\nDefault: null",
+          "values": []
+        },
+        {
+          "name": "tabindex",
+          "description": "`tabindex` {`number`} - \n\nProperty: tabindex\n\nDefault: -1"
+        },
+        {
+          "name": "disabled",
+          "description": "`disabled` {`boolean`} - \n\nProperty: disabled\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "twoline",
+          "description": "`twoline` {`boolean`} - \n\nProperty: twoline\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "activated",
+          "description": "`activated` {`boolean`} - \n\nProperty: activated\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "graphic",
+          "description": "`graphic` {`GraphicType`} - \n\nProperty: graphic\n\nDefault: control"
+        },
+        {
+          "name": "hasMeta",
+          "description": "`hasMeta` {`boolean`} - \n\nProperty: hasMeta\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "noninteractive",
+          "description": "`noninteractive` {`boolean`} - \n\nProperty: noninteractive\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "selected",
+          "description": "`selected` {`boolean`} - \n\nProperty: selected\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "onrequest-selected",
+          "description": "`request-selected` - {RequestSelectedDetail}"
+        },
+        {
+          "name": "onlist-item-rendered",
+          "description": "`list-item-rendered` - "
+        }
+      ]
+    },
+    {
+      "name": "mwc-radio",
+      "description": "Events:\n\n  * `checked` - \n\nAttributes:\n\n  * `global` {`boolean`} - \n\n  * `checked` {`boolean`} - We define our own getter/setter for `checked` because we need to track\nchanges to it synchronously.\n\nThe order in which the `checked` property is set across radio buttons\nwithin the same group is very important. However, we can't rely on\nUpdatingElement's `updated` callback to observe these changes (which is\nalso what the `@observer` decorator uses), because it batches changes to\nall properties.\n\nConsider:\n\n   radio1.disabled = true;\n   radio2.checked = true;\n   radio1.checked = true;\n\nIn this case we'd first see all changes for radio1, and then for radio2,\nand we couldn't tell that radio1 was the most recently checked.\n\n  * `disabled` {`boolean`} - \n\n  * `value` {`string`} - \n\n  * `name` {`string`} - \n\nProperties:\n\n  * `rippleElement` {`HTMLElementWithRipple`} - \n\n  * `_checked` {`boolean`} - \n\n  * `global` {`boolean`} - \n\n  * `checked` {`boolean`} - We define our own getter/setter for `checked` because we need to track\nchanges to it synchronously.\n\nThe order in which the `checked` property is set across radio buttons\nwithin the same group is very important. However, we can't rely on\nUpdatingElement's `updated` callback to observe these changes (which is\nalso what the `@observer` decorator uses), because it batches changes to\nall properties.\n\nConsider:\n\n   radio1.disabled = true;\n   radio2.checked = true;\n   radio1.checked = true;\n\nIn this case we'd first see all changes for radio1, and then for radio2,\nand we couldn't tell that radio1 was the most recently checked.\n\n  * `disabled` {`boolean`} - \n\n  * `value` {`string`} - \n\n  * `name` {`string`} - \n\n  * `_selectionController` {`SelectionController | undefined`} - \n\n  * `formElement` {`HTMLInputElement`} - Form-capable element in the component ShadowRoot.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCRadioFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCRadioFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`RippleInterface | undefined`} - Implement ripple getter for Ripple integration with mwc-formfield\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`} - \n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`} - ",
+      "attributes": [
+        {
+          "name": "global",
+          "description": "`global` {`boolean`} - \n\nProperty: global\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "checked",
+          "description": "`checked` {`boolean`} - We define our own getter/setter for `checked` because we need to track\nchanges to it synchronously.\n\nThe order in which the `checked` property is set across radio buttons\nwithin the same group is very important. However, we can't rely on\nUpdatingElement's `updated` callback to observe these changes (which is\nalso what the `@observer` decorator uses), because it batches changes to\nall properties.\n\nConsider:\n\n   radio1.disabled = true;\n   radio2.checked = true;\n   radio1.checked = true;\n\nIn this case we'd first see all changes for radio1, and then for radio2,\nand we couldn't tell that radio1 was the most recently checked.\n\nProperty: checked",
+          "valueSet": "v"
+        },
+        {
+          "name": "disabled",
+          "description": "`disabled` {`boolean`} - \n\nProperty: disabled\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "value",
+          "description": "`value` {`string`} - \n\nProperty: value\n\nDefault: "
+        },
+        {
+          "name": "name",
+          "description": "`name` {`string`} - \n\nProperty: name\n\nDefault: "
+        },
+        {
+          "name": "onchecked",
+          "description": "`checked` - "
+        }
+      ]
+    },
+    {
+      "name": "mwc-ripple",
+      "description": "Attributes:\n\n  * `primary` {`boolean`} - \n\n  * `accent` {`boolean`} - \n\n  * `unbounded` {`boolean`} - \n\n  * `disabled` {`boolean`} - \n\n  * `activated` {`boolean`} - \n\n  * `selected` {`boolean`} - \n\nProperties:\n\n  * `primary` {`boolean`} - \n\n  * `accent` {`boolean`} - \n\n  * `unbounded` {`boolean`} - \n\n  * `disabled` {`boolean`} - \n\n  * `activated` {`boolean`} - \n\n  * `selected` {`boolean`} - \n\n  * `hovering` {`boolean`} - \n\n  * `bgFocused` {`boolean`} - \n\n  * `fgActivation` {`boolean`} - \n\n  * `fgDeactivation` {`boolean`} - \n\n  * `fgScale` {`string`} - \n\n  * `fgSize` {`string`} - \n\n  * `translateStart` {`string`} - \n\n  * `translateEnd` {`string`} - \n\n  * `leftPos` {`string`} - \n\n  * `topPos` {`string`} - \n\n  * `isActive` {`boolean`} - \n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCRippleFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCRippleFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`unknown`} - \n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`} - \n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`} - \n\n  * `startHover` {`() => void`} - \n\n  * `endHover` {`() => void`} - \n\n  * `startPress` {`(e?: Event | undefined) => void`} - \n\n  * `endPress` {`() => void`} - \n\n  * `startFocus` {`() => void`} - \n\n  * `endFocus` {`() => void`} - ",
+      "attributes": [
+        {
+          "name": "primary",
+          "description": "`primary` {`boolean`} - \n\nProperty: primary\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "accent",
+          "description": "`accent` {`boolean`} - \n\nProperty: accent\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "unbounded",
+          "description": "`unbounded` {`boolean`} - \n\nProperty: unbounded\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "disabled",
+          "description": "`disabled` {`boolean`} - \n\nProperty: disabled\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "activated",
+          "description": "`activated` {`boolean`} - \n\nProperty: activated\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "selected",
+          "description": "`selected` {`boolean`} - \n\nProperty: selected\n\nDefault: false",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "mwc-select",
+      "description": "Events:\n\n  * `selected` - {SelectedDetail}\n\n  * `action` - {ActionDetail}\n\n  * `opened` - \n\n  * `closed` - \n\n  * `change` - \n\n  * `invalid` - \n\n  * `focus` - \n\n  * `blur` - \n\nAttributes:\n\n  * `disabled` {`boolean`} - \n\n  * `outlined` {`boolean`} - \n\n  * `label` {`string`} - \n\n  * `outlineOpen` {`boolean`} - \n\n  * `outlineWidth` {`number`} - \n\n  * `value` {`string`} - \n\n  * `selectedText` {`string`} - \n\n  * `icon` {`string`} - \n\n  * `menuOpen` {`boolean`} - \n\n  * `helper` {`string`} - \n\n  * `validateOnInitialRender` {`boolean`} - \n\n  * `validationMessage` {`string`} - \n\n  * `required` {`boolean`} - \n\n  * `fullwidth` {`boolean`} - \n\n  * `naturalMenuWidth` {`boolean`} - \n\n  * `isUiValid` {`boolean`} - \n\nProperties:\n\n  * `slotElement` {`HTMLSlotElement | null`} - \n\n  * `nativeSelectElement` {`HTMLSelectElement | null`} - \n\n  * `nativeInputElement` {`HTMLInputElement | null`} - \n\n  * `lineRippleElement` {`LineRipple | null`} - \n\n  * `labelElement` {`FloatingLabel | null`} - \n\n  * `outlineElement` {`NotchedOutline | null`} - \n\n  * `menuElement` {`Menu | null`} - \n\n  * `anchorElement` {`HTMLDivElement | null`} - \n\n  * `disabled` {`boolean`} - \n\n  * `outlined` {`boolean`} - \n\n  * `label` {`string`} - \n\n  * `outlineOpen` {`boolean`} - \n\n  * `outlineWidth` {`number`} - \n\n  * `value` {`string`} - \n\n  * `selectedText` {`string`} - \n\n  * `icon` {`string`} - \n\n  * `menuOpen` {`boolean`} - \n\n  * `helper` {`string`} - \n\n  * `validateOnInitialRender` {`boolean`} - \n\n  * `validationMessage` {`string`} - \n\n  * `required` {`boolean`} - \n\n  * `fullwidth` {`boolean`} - \n\n  * `naturalMenuWidth` {`boolean`} - \n\n  * `isUiValid` {`boolean`} - \n\n  * `items` {`ListItemBase[]`} - \n\n  * `selected` {`ListItemBase | null`} - \n\n  * `index` {`number`} - \n\n  * `listeners` {`{ target: Element; name: string; cb: EventListenerOrEventListenerObject; }[]`} - \n\n  * `onBodyClickBound` {`(evt: MouseEvent) => void`} - \n\n  * `_menuUpdateComplete` {`Promise<unknown> | null`} - \n\n  * `shouldRenderHelperText` {`boolean`} - \n\n  * `renderReady` {`boolean`} - \n\n  * `valueSetDirectly` {`boolean`} - \n\n  * `validityTransform` {`((value: string, nativeValidity: ValidityState) => Partial<ValidityState>) | null`} - \n\n  * `_validity` {`ValidityState`} - \n\n  * `validity` {`ValidityState`} - \n\n  * `formElement` {`HTMLInputElement`} - Form-capable element in the component ShadowRoot.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCSelectFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCSelectFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`RippleInterface | Promise<RippleInterface | null> | undefined`} - Implement ripple getter for Ripple integration with mwc-formfield\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`} - \n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`} - ",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "`disabled` {`boolean`} - \n\nProperty: disabled\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "outlined",
+          "description": "`outlined` {`boolean`} - \n\nProperty: outlined\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "label",
+          "description": "`label` {`string`} - \n\nProperty: label\n\nDefault: "
+        },
+        {
+          "name": "outlineOpen",
+          "description": "`outlineOpen` {`boolean`} - \n\nProperty: outlineOpen\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "outlineWidth",
+          "description": "`outlineWidth` {`number`} - \n\nProperty: outlineWidth\n\nDefault: 0"
+        },
+        {
+          "name": "value",
+          "description": "`value` {`string`} - \n\nProperty: value\n\nDefault: "
+        },
+        {
+          "name": "selectedText",
+          "description": "`selectedText` {`string`} - \n\nProperty: selectedText\n\nDefault: "
+        },
+        {
+          "name": "icon",
+          "description": "`icon` {`string`} - \n\nProperty: icon\n\nDefault: "
+        },
+        {
+          "name": "menuOpen",
+          "description": "`menuOpen` {`boolean`} - \n\nProperty: menuOpen\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "helper",
+          "description": "`helper` {`string`} - \n\nProperty: helper\n\nDefault: "
+        },
+        {
+          "name": "validateOnInitialRender",
+          "description": "`validateOnInitialRender` {`boolean`} - \n\nProperty: validateOnInitialRender\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "validationMessage",
+          "description": "`validationMessage` {`string`} - \n\nProperty: validationMessage\n\nDefault: "
+        },
+        {
+          "name": "required",
+          "description": "`required` {`boolean`} - \n\nProperty: required\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "fullwidth",
+          "description": "`fullwidth` {`boolean`} - \n\nProperty: fullwidth\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "naturalMenuWidth",
+          "description": "`naturalMenuWidth` {`boolean`} - \n\nProperty: naturalMenuWidth\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "isUiValid",
+          "description": "`isUiValid` {`boolean`} - \n\nProperty: isUiValid\n\nDefault: true",
+          "valueSet": "v"
+        },
+        {
+          "name": "onselected",
+          "description": "`selected` - {SelectedDetail}"
+        },
+        {
+          "name": "onaction",
+          "description": "`action` - {ActionDetail}"
+        },
+        {
+          "name": "onopened",
+          "description": "`opened` - "
+        },
+        {
+          "name": "onclosed",
+          "description": "`closed` - "
+        },
+        {
+          "name": "onchange",
+          "description": "`change` - "
+        },
+        {
+          "name": "oninvalid",
+          "description": "`invalid` - "
+        },
+        {
+          "name": "onfocus",
+          "description": "`focus` - "
+        },
+        {
+          "name": "onblur",
+          "description": "`blur` - "
+        }
+      ]
+    },
+    {
+      "name": "mwc-slider",
+      "description": "Attributes:\n\n  * `min` {`number`} - \n\n  * `max` {`number`} - \n\n  * `value` {`number`} - \n\n  * `step` {`number`} - \n\n  * `disabled` {`boolean`} - \n\n  * `pin` {`boolean`} - \n\n  * `markers` {`boolean`} - \n\n  * `pinMarkerText` {`string`} - \n\n  * `trackMarkerContainerStyles` - \n\n  * `thumbContainerStyles` - \n\n  * `trackStyles` - \n\nProperties:\n\n  * `thumbContainer` {`HTMLElement`} - \n\n  * `pinMarker` {`HTMLElement`} - \n\n  * `min` {`number`} - \n\n  * `max` {`number`} - \n\n  * `_value` {`number`} - \n\n  * `value` {`number`} - \n\n  * `step` {`number`} - \n\n  * `disabled` {`boolean`} - \n\n  * `pin` {`boolean`} - \n\n  * `markers` {`boolean`} - \n\n  * `pinMarkerText` {`string`} - \n\n  * `trackMarkerContainerStyles` - \n\n  * `thumbContainerStyles` - \n\n  * `trackStyles` - \n\n  * `isFoundationDestroyed` {`boolean`} - \n\n  * `formElement` {`HTMLElement`} - Form-capable element in the component ShadowRoot.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCSliderFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCSliderFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`RippleInterface | Promise<RippleInterface | null> | undefined`} - Implement ripple getter for Ripple integration with mwc-formfield\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`} - \n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`} - ",
+      "attributes": [
+        {
+          "name": "min",
+          "description": "`min` {`number`} - \n\nProperty: min\n\nDefault: 0"
+        },
+        {
+          "name": "max",
+          "description": "`max` {`number`} - \n\nProperty: max\n\nDefault: 100"
+        },
+        {
+          "name": "value",
+          "description": "`value` {`number`} - \n\nProperty: value"
+        },
+        {
+          "name": "step",
+          "description": "`step` {`number`} - \n\nProperty: step\n\nDefault: 0"
+        },
+        {
+          "name": "disabled",
+          "description": "`disabled` {`boolean`} - \n\nProperty: disabled\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "pin",
+          "description": "`pin` {`boolean`} - \n\nProperty: pin\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "markers",
+          "description": "`markers` {`boolean`} - \n\nProperty: markers\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "pinMarkerText",
+          "description": "`pinMarkerText` {`string`} - \n\nProperty: pinMarkerText\n\nDefault: "
+        },
+        {
+          "name": "trackMarkerContainerStyles",
+          "description": "`trackMarkerContainerStyles` - \n\nProperty: trackMarkerContainerStyles\n\nDefault: [object Object]"
+        },
+        {
+          "name": "thumbContainerStyles",
+          "description": "`thumbContainerStyles` - \n\nProperty: thumbContainerStyles\n\nDefault: [object Object]"
+        },
+        {
+          "name": "trackStyles",
+          "description": "`trackStyles` - \n\nProperty: trackStyles\n\nDefault: [object Object]"
+        }
+      ]
+    },
+    {
+      "name": "mwc-snackbar",
+      "description": "Attributes:\n\n  * `open` {`boolean`} - \n\n  * `timeoutMs` {`number`} - \n\n  * `closeOnEscape` {`boolean`} - \n\n  * `labelText` {`string`} - \n\n  * `stacked` {`boolean`} - \n\n  * `leading` {`boolean`} - \n\nProperties:\n\n  * `labelElement` {`HTMLElement`} - \n\n  * `open` {`boolean`} - \n\n  * `timeoutMs` {`number`} - \n\n  * `closeOnEscape` {`boolean`} - \n\n  * `labelText` {`string`} - \n\n  * `stacked` {`boolean`} - \n\n  * `leading` {`boolean`} - \n\n  * `reason` {`string`} - \n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCSnackbarFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCSnackbarFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`unknown`} - \n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`} - \n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`} - ",
+      "attributes": [
+        {
+          "name": "open",
+          "description": "`open` {`boolean`} - \n\nProperty: open\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "timeoutMs",
+          "description": "`timeoutMs` {`number`} - \n\nProperty: timeoutMs\n\nDefault: 5000"
+        },
+        {
+          "name": "closeOnEscape",
+          "description": "`closeOnEscape` {`boolean`} - \n\nProperty: closeOnEscape\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "labelText",
+          "description": "`labelText` {`string`} - \n\nProperty: labelText\n\nDefault: "
+        },
+        {
+          "name": "stacked",
+          "description": "`stacked` {`boolean`} - \n\nProperty: stacked\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "leading",
+          "description": "`leading` {`boolean`} - \n\nProperty: leading\n\nDefault: false",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "mwc-switch",
+      "description": "Attributes:\n\n  * `checked` {`boolean`} - \n\n  * `disabled` {`boolean`} - \n\nProperties:\n\n  * `checked` {`boolean`} - \n\n  * `disabled` {`boolean`} - \n\n  * `rippleNode` {`HTMLElementWithRipple`} - \n\n  * `formElement` {`HTMLInputElement`} - Form-capable element in the component ShadowRoot.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCSwitchFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCSwitchFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`RippleInterface | undefined`} - Implement ripple getter for Ripple integration with mwc-formfield\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`} - \n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`} - ",
+      "attributes": [
+        {
+          "name": "checked",
+          "description": "`checked` {`boolean`} - \n\nProperty: checked\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "disabled",
+          "description": "`disabled` {`boolean`} - \n\nProperty: disabled\n\nDefault: false",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "mwc-tab-bar",
+      "description": "Attributes:\n\n  * `activeIndex` {`number`} - \n\nProperties:\n\n  * `scrollerElement` {`TabScroller`} - \n\n  * `tabsSlot` {`HTMLElement`} - \n\n  * `activeIndex` {`number`} - \n\n  * `_previousActiveIndex` {`number`} - \n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCTabBarFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCTabBarFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`unknown`} - \n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`} - \n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`} - ",
+      "attributes": [
+        {
+          "name": "activeIndex",
+          "description": "`activeIndex` {`number`} - \n\nProperty: activeIndex\n\nDefault: 0"
+        }
+      ]
+    },
+    {
+      "name": "mwc-tab-indicator",
+      "description": "Attributes:\n\n  * `icon` {`string`} - \n\n  * `fade` {`boolean`} - \n\nProperties:\n\n  * `contentElement` {`HTMLElement`} - \n\n  * `icon` {`string`} - \n\n  * `fade` {`boolean`} - \n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCSlidingTabIndicatorFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCTabIndicatorFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`unknown`} - \n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`} - \n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`} - ",
+      "attributes": [
+        {
+          "name": "icon",
+          "description": "`icon` {`string`} - \n\nProperty: icon\n\nDefault: "
+        },
+        {
+          "name": "fade",
+          "description": "`fade` {`boolean`} - \n\nProperty: fade\n\nDefault: false",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "mwc-tab-scroller",
+      "description": "Properties:\n\n  * `scrollAreaElement` {`HTMLElement`} - \n\n  * `scrollContentElement` {`HTMLElement`} - \n\n  * `_scrollbarHeight` {`number`} - \n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCTabScrollerFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCTabScrollerFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`unknown`} - \n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`} - \n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`} - ",
+      "attributes": []
+    },
+    {
+      "name": "mwc-tab",
+      "description": "Attributes:\n\n  * `label` {`string`} - \n\n  * `icon` {`string`} - \n\n  * `hasImageIcon` {`boolean`} - \n\n  * `isFadingIndicator` {`boolean`} - \n\n  * `minWidth` {`boolean`} - \n\n  * `isMinWidthIndicator` {`boolean`} - \n\n  * `active` {`boolean`} - \n\n  * `indicatorIcon` {`string`} - \n\n  * `stacked` {`boolean`} - \n\n  * `focusOnActivate` {`boolean`} - \n\nProperties:\n\n  * `tabIndicator` {`TabIndicator`} - \n\n  * `label` {`string`} - \n\n  * `icon` {`string`} - \n\n  * `hasImageIcon` {`boolean`} - \n\n  * `isFadingIndicator` {`boolean`} - \n\n  * `minWidth` {`boolean`} - \n\n  * `isMinWidthIndicator` {`boolean`} - \n\n  * `active` {`boolean`} - \n\n  * `indicatorIcon` {`string`} - \n\n  * `stacked` {`boolean`} - \n\n  * `focusOnActivate` {`boolean`} - \n\n  * `_active` {`boolean`} - \n\n  * `_tabIndicator` {`HTMLElement`} - Other properties\nindicatorContent <slot>\npreviousIndicatorClientRect (needed?)\nonTransitionEnd (needed?)\n\n  * `_contentElement` {`HTMLElement`} - \n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCTabFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCTabFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`unknown`} - \n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`} - \n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`} - ",
+      "attributes": [
+        {
+          "name": "label",
+          "description": "`label` {`string`} - \n\nProperty: label\n\nDefault: "
+        },
+        {
+          "name": "icon",
+          "description": "`icon` {`string`} - \n\nProperty: icon\n\nDefault: "
+        },
+        {
+          "name": "hasImageIcon",
+          "description": "`hasImageIcon` {`boolean`} - \n\nProperty: hasImageIcon\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "isFadingIndicator",
+          "description": "`isFadingIndicator` {`boolean`} - \n\nProperty: isFadingIndicator\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "minWidth",
+          "description": "`minWidth` {`boolean`} - \n\nProperty: minWidth\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "isMinWidthIndicator",
+          "description": "`isMinWidthIndicator` {`boolean`} - \n\nProperty: isMinWidthIndicator\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "active",
+          "description": "`active` {`boolean`} - \n\nProperty: active",
+          "valueSet": "v"
+        },
+        {
+          "name": "indicatorIcon",
+          "description": "`indicatorIcon` {`string`} - \n\nProperty: indicatorIcon\n\nDefault: "
+        },
+        {
+          "name": "stacked",
+          "description": "`stacked` {`boolean`} - \n\nProperty: stacked\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "focusOnActivate",
+          "description": "`focusOnActivate` {`boolean`} - \n\nProperty: focusOnActivate\n\nDefault: true",
+          "valueSet": "v"
+        }
+      ]
+    },
+    {
+      "name": "mwc-textarea",
+      "description": "Attributes:\n\n  * `rows` {`number`} - \n\n  * `cols` {`number`} - \n\nProperties:\n\n  * `rows` {`number`} - \n\n  * `cols` {`number`} - \n\n  * `labelElement` {`FloatingLabel | null`} - \n\n  * `lineRippleElement` {`LineRipple | null`} - \n\n  * `outlineElement` {`NotchedOutline | null`} - \n\n  * `notchElement` {`HTMLElement`} - \n\n  * `value` {`string`} - \n\n  * `type` {`TextFieldType`} - \n\n  * `placeholder` {`string`} - \n\n  * `label` {`string`} - \n\n  * `icon` {`string`} - \n\n  * `iconTrailing` {`string`} - \n\n  * `disabled` {`boolean`} - \n\n  * `required` {`boolean`} - \n\n  * `minLength` {`number`} - \n\n  * `maxLength` {`number`} - \n\n  * `outlined` {`boolean`} - \n\n  * `fullWidth` {`boolean`} - \n\n  * `helper` {`string`} - \n\n  * `validateOnInitialRender` {`boolean`} - \n\n  * `validationMessage` {`string`} - \n\n  * `autoValidate` {`boolean`} - \n\n  * `pattern` {`string`} - \n\n  * `min` {`string | number`} - \n\n  * `max` {`string | number`} - \n\n  * `step` {`number | null`} - \n\n  * `size` {`number | null`} - \n\n  * `helperPersistent` {`boolean`} - \n\n  * `charCounter` {`boolean`} - \n\n  * `endAligned` {`boolean`} - \n\n  * `prefix` {`string`} - \n\n  * `suffix` {`string`} - \n\n  * `inputMode` {`TextFieldInputMode`} - \n\n  * `readOnly` {`boolean`} - \n\n  * `outlineOpen` {`boolean`} - \n\n  * `outlineWidth` {`number`} - \n\n  * `isUiValid` {`boolean`} - \n\n  * `_validity` {`ValidityState`} - \n\n  * `_outlineUpdateComplete` {`Promise<unknown> | null`} - \n\n  * `validity` {`ValidityState`} - \n\n  * `willValidate` {`boolean`} - \n\n  * `selectionStart` {`number | null`} - \n\n  * `selectionEnd` {`number | null`} - \n\n  * `shouldRenderHelperText` {`boolean`} - \n\n  * `charCounterVisible` {`boolean`} - \n\n  * `validityTransform` {`((value: string, nativeValidity: ValidityState) => Partial<ValidityState>) | null`} - \n\n  * `formElement` {`HTMLInputElement`} - Form-capable element in the component ShadowRoot.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCTextFieldFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCTextFieldFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`RippleInterface | Promise<RippleInterface | null> | undefined`} - Implement ripple getter for Ripple integration with mwc-formfield\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`} - \n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`} - ",
+      "attributes": [
+        {
+          "name": "rows",
+          "description": "`rows` {`number`} - \n\nProperty: rows\n\nDefault: 2"
+        },
+        {
+          "name": "cols",
+          "description": "`cols` {`number`} - \n\nProperty: cols\n\nDefault: 20"
+        }
+      ]
+    },
+    {
+      "name": "mwc-textfield",
+      "description": "Events:\n\n  * `focus` - \n\n  * `blur` - \n\nAttributes:\n\n  * `value` {`string`} - \n\n  * `type` {`TextFieldType`} - \n\n  * `placeholder` {`string`} - \n\n  * `label` {`string`} - \n\n  * `icon` {`string`} - \n\n  * `iconTrailing` {`string`} - \n\n  * `disabled` {`boolean`} - \n\n  * `required` {`boolean`} - \n\n  * `minLength` {`number`} - \n\n  * `maxLength` {`number`} - \n\n  * `outlined` {`boolean`} - \n\n  * `fullWidth` {`boolean`} - \n\n  * `helper` {`string`} - \n\n  * `validateOnInitialRender` {`boolean`} - \n\n  * `validationMessage` {`string`} - \n\n  * `autoValidate` {`boolean`} - \n\n  * `pattern` {`string`} - \n\n  * `min` {`string | number`} - \n\n  * `max` {`string | number`} - \n\n  * `step` {`number | null`} - \n\n  * `size` {`number | null`} - \n\n  * `helperPersistent` {`boolean`} - \n\n  * `charCounter` {`boolean`} - \n\n  * `endAligned` {`boolean`} - \n\n  * `prefix` {`string`} - \n\n  * `suffix` {`string`} - \n\n  * `inputMode` {`TextFieldInputMode`} - \n\n  * `readOnly` {`boolean`} - \n\n  * `outlineOpen` {`boolean`} - \n\n  * `outlineWidth` {`number`} - \n\n  * `isUiValid` {`boolean`} - \n\nProperties:\n\n  * `labelElement` {`FloatingLabel | null`} - \n\n  * `lineRippleElement` {`LineRipple | null`} - \n\n  * `outlineElement` {`NotchedOutline | null`} - \n\n  * `notchElement` {`HTMLElement`} - \n\n  * `value` {`string`} - \n\n  * `type` {`TextFieldType`} - \n\n  * `placeholder` {`string`} - \n\n  * `label` {`string`} - \n\n  * `icon` {`string`} - \n\n  * `iconTrailing` {`string`} - \n\n  * `disabled` {`boolean`} - \n\n  * `required` {`boolean`} - \n\n  * `minLength` {`number`} - \n\n  * `maxLength` {`number`} - \n\n  * `outlined` {`boolean`} - \n\n  * `fullWidth` {`boolean`} - \n\n  * `helper` {`string`} - \n\n  * `validateOnInitialRender` {`boolean`} - \n\n  * `validationMessage` {`string`} - \n\n  * `autoValidate` {`boolean`} - \n\n  * `pattern` {`string`} - \n\n  * `min` {`string | number`} - \n\n  * `max` {`string | number`} - \n\n  * `step` {`number | null`} - \n\n  * `size` {`number | null`} - \n\n  * `helperPersistent` {`boolean`} - \n\n  * `charCounter` {`boolean`} - \n\n  * `endAligned` {`boolean`} - \n\n  * `prefix` {`string`} - \n\n  * `suffix` {`string`} - \n\n  * `inputMode` {`TextFieldInputMode`} - \n\n  * `readOnly` {`boolean`} - \n\n  * `outlineOpen` {`boolean`} - \n\n  * `outlineWidth` {`number`} - \n\n  * `isUiValid` {`boolean`} - \n\n  * `_validity` {`ValidityState`} - \n\n  * `_outlineUpdateComplete` {`Promise<unknown> | null`} - \n\n  * `validity` {`ValidityState`} - \n\n  * `willValidate` {`boolean`} - \n\n  * `selectionStart` {`number | null`} - \n\n  * `selectionEnd` {`number | null`} - \n\n  * `shouldRenderHelperText` {`boolean`} - \n\n  * `charCounterVisible` {`boolean`} - \n\n  * `validityTransform` {`((value: string, nativeValidity: ValidityState) => Partial<ValidityState>) | null`} - \n\n  * `formElement` {`HTMLInputElement`} - Form-capable element in the component ShadowRoot.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCTextFieldFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCTextFieldFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`RippleInterface | Promise<RippleInterface | null> | undefined`} - Implement ripple getter for Ripple integration with mwc-formfield\n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`} - \n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`} - ",
+      "attributes": [
+        {
+          "name": "value",
+          "description": "`value` {`string`} - \n\nProperty: value\n\nDefault: "
+        },
+        {
+          "name": "type",
+          "description": "`type` {`TextFieldType`} - \n\nProperty: type\n\nDefault: text"
+        },
+        {
+          "name": "placeholder",
+          "description": "`placeholder` {`string`} - \n\nProperty: placeholder\n\nDefault: "
+        },
+        {
+          "name": "label",
+          "description": "`label` {`string`} - \n\nProperty: label\n\nDefault: "
+        },
+        {
+          "name": "icon",
+          "description": "`icon` {`string`} - \n\nProperty: icon\n\nDefault: "
+        },
+        {
+          "name": "iconTrailing",
+          "description": "`iconTrailing` {`string`} - \n\nProperty: iconTrailing\n\nDefault: "
+        },
+        {
+          "name": "disabled",
+          "description": "`disabled` {`boolean`} - \n\nProperty: disabled\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "required",
+          "description": "`required` {`boolean`} - \n\nProperty: required\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "minLength",
+          "description": "`minLength` {`number`} - \n\nProperty: minLength\n\nDefault: -1"
+        },
+        {
+          "name": "maxLength",
+          "description": "`maxLength` {`number`} - \n\nProperty: maxLength\n\nDefault: -1"
+        },
+        {
+          "name": "outlined",
+          "description": "`outlined` {`boolean`} - \n\nProperty: outlined\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "fullWidth",
+          "description": "`fullWidth` {`boolean`} - \n\nProperty: fullWidth\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "helper",
+          "description": "`helper` {`string`} - \n\nProperty: helper\n\nDefault: "
+        },
+        {
+          "name": "validateOnInitialRender",
+          "description": "`validateOnInitialRender` {`boolean`} - \n\nProperty: validateOnInitialRender\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "validationMessage",
+          "description": "`validationMessage` {`string`} - \n\nProperty: validationMessage\n\nDefault: "
+        },
+        {
+          "name": "autoValidate",
+          "description": "`autoValidate` {`boolean`} - \n\nProperty: autoValidate\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "pattern",
+          "description": "`pattern` {`string`} - \n\nProperty: pattern\n\nDefault: "
+        },
+        {
+          "name": "min",
+          "description": "`min` {`string | number`} - \n\nProperty: min\n\nDefault: ",
+          "values": []
+        },
+        {
+          "name": "max",
+          "description": "`max` {`string | number`} - \n\nProperty: max\n\nDefault: ",
+          "values": []
+        },
+        {
+          "name": "step",
+          "description": "`step` {`number | null`} - \n\nProperty: step\n\nDefault: null",
+          "values": []
+        },
+        {
+          "name": "size",
+          "description": "`size` {`number | null`} - \n\nProperty: size\n\nDefault: null",
+          "values": []
+        },
+        {
+          "name": "helperPersistent",
+          "description": "`helperPersistent` {`boolean`} - \n\nProperty: helperPersistent\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "charCounter",
+          "description": "`charCounter` {`boolean`} - \n\nProperty: charCounter\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "endAligned",
+          "description": "`endAligned` {`boolean`} - \n\nProperty: endAligned\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "prefix",
+          "description": "`prefix` {`string`} - \n\nProperty: prefix\n\nDefault: "
+        },
+        {
+          "name": "suffix",
+          "description": "`suffix` {`string`} - \n\nProperty: suffix\n\nDefault: "
+        },
+        {
+          "name": "inputMode",
+          "description": "`inputMode` {`TextFieldInputMode`} - \n\nProperty: inputMode"
+        },
+        {
+          "name": "readOnly",
+          "description": "`readOnly` {`boolean`} - \n\nProperty: readOnly\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "outlineOpen",
+          "description": "`outlineOpen` {`boolean`} - \n\nProperty: outlineOpen\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "outlineWidth",
+          "description": "`outlineWidth` {`number`} - \n\nProperty: outlineWidth\n\nDefault: 0"
+        },
+        {
+          "name": "isUiValid",
+          "description": "`isUiValid` {`boolean`} - \n\nProperty: isUiValid\n\nDefault: true",
+          "valueSet": "v"
+        },
+        {
+          "name": "onfocus",
+          "description": "`focus` - "
+        },
+        {
+          "name": "onblur",
+          "description": "`blur` - "
+        }
+      ]
+    },
+    {
+      "name": "mwc-top-app-bar-fixed",
+      "description": "Properties:\n\n  * `prominent` {`boolean`} - \n\n  * `dense` {`boolean`} - \n\n  * `handleResize` {`() => void`} - \n\n  * `_actionItemsSlot` - \n\n  * `_scrollTarget` - \n\n  * `centerTitle` {`boolean`} - \n\n  * `scrollTarget` {`HTMLElement | Window`} - \n\n  * `updateRootPosition` - \n\n  * `handleTargetScroll` {`() => void`} - \n\n  * `handleNavigationClick` {`() => void`} - \n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCFixedTopAppBarFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCFixedTopAppBarFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`unknown`} - \n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`} - \n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`} - ",
+      "attributes": []
+    },
+    {
+      "name": "mwc-top-app-bar",
+      "description": "Attributes:\n\n  * `prominent` {`boolean`} - \n\n  * `dense` {`boolean`} - \n\n  * `centerTitle` {`boolean`} - \n\n  * `scrollTarget` {`HTMLElement | Window`} - \n\nProperties:\n\n  * `prominent` {`boolean`} - \n\n  * `dense` {`boolean`} - \n\n  * `handleResize` {`() => void`} - \n\n  * `_actionItemsSlot` {`HTMLElement`} - \n\n  * `_scrollTarget` {`HTMLElement | Window`} - \n\n  * `centerTitle` {`boolean`} - \n\n  * `scrollTarget` {`HTMLElement | Window`} - \n\n  * `handleTargetScroll` {`() => void`} - \n\n  * `handleNavigationClick` {`() => void`} - \n\n  * `mdcRoot` {`HTMLElement`} - Root element for MDC Foundation usage.\n\nDefine in your component with the `@query` decorator\n\n  * `mdcFoundationClass` {`typeof MDCTopAppBarFoundation`} - Return the foundation class for this component\n\n  * `mdcFoundation` {`MDCTopAppBarFoundation`} - An instance of the MDC Foundation class to attach to the root element\n\n  * `ripple` {`unknown`} - \n\n  * `floatingLabelFoundation` {`MDCFloatingLabelFoundation | undefined`} - \n\n  * `lineRippleFoundation` {`MDCLineRippleFoundation | undefined`} - ",
+      "attributes": [
+        {
+          "name": "prominent",
+          "description": "`prominent` {`boolean`} - \n\nProperty: prominent\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "dense",
+          "description": "`dense` {`boolean`} - \n\nProperty: dense\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "centerTitle",
+          "description": "`centerTitle` {`boolean`} - \n\nProperty: centerTitle\n\nDefault: false",
+          "valueSet": "v"
+        },
+        {
+          "name": "scrollTarget",
+          "description": "`scrollTarget` {`HTMLElement | Window`} - \n\nProperty: scrollTarget",
+          "values": []
+        }
+      ]
+    }
+  ],
+  "globalAttributes": [],
+  "valueSets": []
+}
