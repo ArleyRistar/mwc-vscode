@@ -18,7 +18,7 @@
     "dev": "es-dev-server --node-resolve --watch --app-index ./src/index.html --open",
     "analyze": "mkdir -p tmp/ && cp -R node_modules/@material/mwc-*/src/* tmp/ && wca analyze tmp --format vscode --outFiles src/analyzed/html-data.0.15.0.json",
     "package": "vsce package",
-    "publish": "vsce publish"
+    "publish-extension": "vsce publish"
   },
   "devDependencies": {
     "ajv-cli": "^3.1.0",

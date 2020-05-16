@@ -21,7 +21,7 @@ This project is still in beta phase. Material Web Components is still a work in 
 
 ## Install
 
-You can install the extension searching for the `Material Web Components` in VS code extension panel or in the [Marketplace](https://marketplace.visualstudio.com/items?itemName=arleyristar.mwc-vscode)
+You can install the extension searching for the `Material Web Components` in VS code extension panel or in the [Marketplace](https://marketplace.visualstudio.com/items?itemName=ristar.mwc-vscode)
 
 ## Next Releases
 
